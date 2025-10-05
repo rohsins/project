@@ -1,0 +1,65 @@
+/* @import "tailwindcss"; */
+
+#app {
+	margin: 10px;
+}
+
+a {
+	color: lightgrey;
+}
+
+a.deptTitle {
+	font-size: 1.35rem;
+	font-weight: bold;
+}
+
+li.deptTitle {
+	position: sticky;
+	top: 0;
+	margin-top: 1rem;
+	margin-bottom: 0.2rem;
+}
+
+h2.deptTitle {
+	position: sticky;
+	top: 0;
+	font-size: 1.75rem;
+	margin-top: 3rem;
+	margin-left: 0.25rem;
+	margin-bottom: 0rem;
+}
+
+.title {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.toc {
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*.projTitle {
+	font-size: 1.25rem;
+	font-weight: bold;
+}*/
+
+h3.projTitle {
+	position: sticky;
+	top: 200;
+	font-size: 1.25rem;
+	margin: 0rem;
+	margin-top: 1rem;
+	margin-left: 1rem;
+}
+
+.projDesc {
+	font-size: 1rem;
+	font-weight: normal;
+	margin: 0rem;
+	margin-top: 0.25rem;
+	margin-left: 1rem;
+	margin-bottom: 1.25rem;
+}
+

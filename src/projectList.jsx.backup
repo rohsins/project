@@ -1,0 +1,743 @@
+export const ProjectList = _ => 
+	<div className="text-justify">
+		<div className="text-3xl">List of Projects</div>
+		<a href="#hardware" className="text-2xl">Hardware</a>
+		<div>
+			<div><a href="#datalogger-xxi-high-performance-data-logging-system-2025">Datalogger-XXI: High-Performance Data Logging System (2025)</a></div>
+			<div><a href="#seismic-data-acquisition-system-2025">Seismic Data Acquisition System (2025)</a></div>
+			<div><a href="#precision-rtk-based-positioning-system-base--rover-2025">Precision RTK-Based Positioning System (Base &amp; Rover, 2025)</a></div>
+			<div><a href="#infrastructure-monitoring-system-ims-2024">Infrastructure Monitoring System (IMS, 2024)</a></div>
+			<div><a href="#communication-modem-with-ethernet-le910v2-2024">Communication Modem with Ethernet (LE910V2, 2024)</a></div>
+			<div><a href="#compact-data-collection-platform-v3-2024">Compact Data Collection Platform V3 (2024)</a></div>
+			<div><a href="#temperature-controlled-ventilation-2024">Temperature controlled ventilation (2024)</a></div>
+			<div><a href="#battery-monitoring-and-logging-pcb-2024">Battery Monitoring and Logging PCB (2024)</a></div>
+			<div><a href="#lora-communication-daughter-board-for-cdcp-2024">LoRa Communication Daughter Board for CDCP (2024)</a></div>
+			<div><a href="#4g-modem-for-ims-2024">4G Modem for IMS (2024)</a></div>
+			<div><a href="#ims-front-panels-2024">IMS Front Panels (2024)</a></div>
+			<div><a href="#satellite-communication-modem-2024">Satellite Communication Modem (2024)</a></div>
+			<div><a href="#satellite-communication-daughter-board-for-cdcp-2024">Satellite Communication Daughter Board for CDCP (2024)</a></div>
+			<div><a href="#signal-amplifier-and-conditioning-circuit-2024">Signal Amplifier and Conditioning Circuit (2024)</a></div>
+			<div><a href="#radio-sonde-2023">Radio Sonde (2023)</a></div>
+			<div><a href="#smart-farming-iot-2022">Smart Farming IoT (2022)</a></div>
+			<div><a href="#sdi-12-isolator-2022">SDI-12 Isolator (2022)</a></div>
+			<div><a href="#landslide-monitor-using-rtk-gps-2021--2022">Landslide Monitor using RTK GPS (2021 – 2022)</a></div>
+			<div><a href="#battery-management-system-for-lithium-iron-yttrium-phosphate-battery-2022">Battery Management System for Lithium Iron Yttrium Phosphate Battery (2022)</a></div>
+			<div><a href="#upgrade-compact-data-collection-platform-v2-2021">Upgrade Compact Data Collection Platform V2 (2021)</a></div>
+			<div><a href="#adc-expansion-board-for-cdcp-2020">ADC Expansion Board for CDCP (2020)</a></div>
+			<div><a href="#capacitive-touch-keypad-for-queue-management-system-2020">Capacitive Touch Keypad for Queue Management System (2020)</a></div>
+			<div><a href="#automatic-meter-reading-2018">Automatic Meter Reading (2018)</a></div>
+			<div><a href="#door-access-controller-2017">Door Access Controller (2017)</a></div>
+			<div><a href="#rtdl-datalogger-2017">RTDL Datalogger (2017)</a></div>
+			<div><a href="#infrastructure-monitoring-system-2017">Infrastructure Monitoring System (2017)</a></div>
+			<div><a href="#communication-module-2017">Communication Module (2017)</a></div>
+			<div><a href="#compact-data-collection-platform-cdcp-2016">Compact Data Collection Platform (CDCP, 2016)</a></div>
+			<div><a href="#audio-remote-terminal-unit-artu-2016">Audio Remote Terminal Unit (ARTU, 2016)</a></div>
+			<div><a href="#power-monitor-for-embedded-system-2016">Power monitor for Embedded System (2016)</a></div>
+			<div><a href="#power-and-signal-interface-unit-2016">Power and Signal Interface Unit (2016)</a></div>
+			<div><a href="#extension-board-for-odroid-c2-2016">Extension Board for Odroid-C2 (2016)</a></div>
+			<div><a href="#anti-theft-movement-sensor-2016">Anti-theft Movement Sensor (2016)</a></div>
+			<div><a href="#controller-system-for-weighing-2015">Controller system for weighing (2015)</a></div>
+			<div><a href="#single-phase-energy-meter-2015">Single Phase Energy Meter (2015)</a></div>
+			<div><a href="#relay-and-triac-controller-2015">Relay and Triac Controller (2015)</a></div>
+			<div><a href="#power-supply-for-audio-amplifier-2015">Power Supply for Audio Amplifier (2015)</a></div>
+			<div><a href="#power-supply-for-tele-terminal-2015">Power Supply for Tele-Terminal (2015)</a></div>
+			<div><a href="#multipurpose-ethernet-board-2015">Multipurpose Ethernet Board (2015)</a></div>
+			<div><a href="#lora-wireless-remote-terminal-unit-2015">LoRa Wireless Remote Terminal Unit (2015)</a></div>
+			<div><a href="#vehicle-guard-and-fleet-management-2015">Vehicle Guard and Fleet Management (2015)</a></div>
+			<div><a href="#lightning-and-surge-arrester-module-2015">Lightning and Surge Arrester Module (2015)</a></div>
+			<div><a href="#reflow-oven-controller-board-2015">Reflow Oven Controller Board (2015)</a></div>
+			<div><a href="#university-major-project-brain-control-system-2014">University Major Project (Brain Control System, 2014)</a></div>
+			<div className="li"><a href="#university-minor-project-smart-wheelchair-2013">University Minor Project (Smart Wheelchair, 2013)</a></div>
+		</div>
+		<br />
+		<a href="#firmware">Firmware</a>
+		<div>
+			<div><a href="#test-firmware-for-low-power-sensor-nodes-2025">Test Firmware for Low power Sensor nodes (2025)</a></div>
+			<div><a href="#cdcp-test-firmware-2019-2024---upgrade">CDCP Test Firmware (2019; 2024 - upgrade)</a></div>
+			<div><a href="#rtk-integration-with-adcp-2023-2024">RTK Integration with ADCP (2023-2024)</a></div>
+			<div><a href="#acconeer-test-firmware-2023">Acconeer Test firmware (2023)</a></div>
+			<div><a href="#rtk-system-2023">RTK system (2023)</a></div>
+			<div><a href="#seismologger-2023">Seismologger (2023)</a></div>
+			<div><a href="#radio-sonde-firmware-2023">Radio Sonde Firmware (2023)</a></div>
+			<div><a href="#test-firmware-for-lr1121-lora-chipset-2023">Test firmware for LR1121 lora chipset (2023)</a></div>
+			<div><a href="#test-firmware-for-piezo-pressure-sensor-2022">Test firmware for Piezo pressure sensor (2022)</a></div>
+			<div><a href="#ble-keyboard-2020">BLE Keyboard (2020)</a></div>
+			<div><a href="#sdi-12-converter-2019">SDI-12 Converter (2019)</a></div>
+			<div><a href="#ups-monitoring-system-2019">UPS Monitoring System (2019)</a></div>
+			<div><a href="#wireless-calling-system-2017">Wireless Calling System (2017)</a></div>
+		</div>
+		<br />
+		<a href="#software">Software</a>
+		<div>
+			<div><a href="#implementation-of-ntrip-server-2023">Implementation of NTRIP server (2023)</a></div>
+			<div><a href="#datalink-server-2023">Datalink Server (2023)</a></div>
+			<div><a href="#chrome-extension-for-ims-2023">Chrome Extension for IMS (2023)</a></div>
+			<div><a href="#update-server-2023">Update server (2023)</a></div>
+			<div><a href="#p-alert-integration-2023">P-Alert integration (2023)</a></div>
+			<div><a href="#frontend-for-identity-and-access-management-cactus-2022">Frontend for Identity and Access Management (Cactus, 2022)</a></div>
+			<div><a href="#api-gateway-2022">Api gateway (2022)</a></div>
+			<div><a href="#identity-and-access-management-iam-2021">Identity and Access Management (IAM) (2021)</a></div>
+			<div><a href="#contact-tracing-2020">Contact Tracing (2020)</a></div>
+			<div><a href="#cdcp-testing-software-2019">CDCP Testing Software (2019)</a></div>
+			<div><a href="#network-server-2017--2019">Network Server (2017 – 2019)</a></div>
+			<div><a href="#customized-linux-kernel-for-embedded-system-2019">Customized Linux Kernel for Embedded System (2019)</a></div>
+			<div><a href="#customized-bootloader-for-embedded-system-2019">Customized Bootloader for Embedded System (2019)</a></div>
+			<div><a href="#lora-connector-for-network-server-2019">LoRa Connector for Network Server (2019)</a></div>
+			<div><a href="#unixevents-2019">Unixevents (2019)</a></div>
+			<div><a href="#ram-database-2018">RAM Database (2018)</a></div>
+			<div><a href="#customized-mqtt-broker-2018">Customized MQTT Broker (2018)</a></div>
+			<div><a href="#customized-lorawan-packet-forwarder-2017">Customized LoRaWAN Packet forwarder (2017)</a></div>
+			<div><a href="#flood-alert-service-2016">Flood Alert Service (2016)</a></div>
+			<div><a href="#lcr-telemetry-2015">LCR Telemetry (2015)</a></div>
+		</div>
+		<br />
+		<h2 id="hardware">Hardware</h2>
+		<h3 id="datalogger-xxi-high-performance-data-logging-system-2025">Datalogger-XXI: High-Performance Data Logging System (2025)</h3>
+		<ul>
+			<li>Designed a high-performance datalogger featuring a dual-core microcontroller (M7 and M4) for efficient parallel processing.</li>
+			<li>Integrated RAM and Flash memory for reliable local data storage.</li>
+			<li>Developed versatile sensor interfaces, including RS485, SDI-12, CAN, UART-TTL, USB, Ethernet, Events, MIPI-DSI, SPI-Display, and a high-speed extensible interface for board expansions.</li>
+			<li>Engineered a built-in solar charge controller, supporting multiple power options (solar, battery, and wall adapter) for field applications.</li>
+			<li>Implemented an integrated GSM modem with dual SIM support to ensure reliable cellular communication and data transmission.</li>
+			<li>Designed for edge computation, enabling real-time or user-defined interval-based sensor data logging and transmission.</li>
+		</ul>
+		<br />
+		<h3 id="seismic-data-acquisition-system-2025">Seismic Data Acquisition System (2025)</h3>
+		<div>
+			<div>Designed a high-performance logic board for seismic monitoring, integrating a 24-bit high-speed, low-noise ADC to interface with a 3-axis geophone for precise data acquisition.</div>
+			<div>Incorporated a digital 3-axis accelerometer for additional motion sensing and cross-validation of seismic activity.</div>
+			<div>Implemented 8MB RAM buffering, capable of storing up to 3 hours of geophone data to ensure data retention during real-time communication failures.</div>
+			<div>Integrated SD card storage for offline data logging, ensuring continuous operation and long-term data archiving.</div>
+			<div>Enabled real-time seismic activity monitoring with robust data logging features, ensuring reliable operation even in adverse conditions.</div>
+		</div>
+		<br />
+		<h3 id="precision-rtk-based-positioning-system-base-rover-2025">Precision RTK-Based Positioning System (Base &amp; Rover, 2025)</h3>
+		<div>
+			<div>Developed a PCB integrating RTK modules for centimeter-to-millimeter accuracy in location tracking.</div>
+			<div>Designed Base and Rover versions:
+				<div>
+					<div>Base Station generates and transmits correction data to the NTRIP server.</div>
+					<div>Rover down-streams correction data from the NTRIP server and processes for enhanced positional accuracy.</div>
+				</div>
+			</div>
+			<div>Integrated LCD display, IMU (Inertial Measurement Unit), GSM Modem, LoRa Modem, Wi-Fi, and BLE for real-time monitoring and communication.</div>
+			<div>Implemented a built-in solar charge controller with battery management, ensuring reliable off-grid operation.</div>
+			<div>Enabled high-precision attitude estimation alongside location data for advanced positioning applications.</div>
+		</div>
+		<br />
+		<h3 id="infrastructure-monitoring-system-ims-2024">Infrastructure Monitoring System (IMS, 2024)</h3>
+		<div>
+			<div>Designed an updated, compact PCB with Wi-Fi, BLE, Thread, and Zigbee for seamless wireless communication.</div>
+			<div>Integrated multiple industrial interfaces: USB, RS485, SDI-12, CAN, RS232, and GPIOs with alternative functions for versatile sensor connectivity.</div>
+			<div>Developed a single logic board compatible with various sensors, including smoke, door, spill, motion sensors, UPS monitoring, and AC meter reading.</div>
+			<div>Incorporated a built-in battery charger for uninterrupted operation and power management.</div>
+			<div>Enhanced system reliability and scalability for real-time infrastructure monitoring across diverse environments.</div>
+		</div>
+		<br />
+		<h3 id="communication-modem-with-ethernet-le910v2-2024">Communication Modem with Ethernet (LE910V2, 2024)</h3>
+		<div>
+			<div className="li">Designed a high-speed communication modem integrating Gigabit Ethernet, USB, RS232, and a GSM Modem with dual SIM support for enhanced
+				connectivity and redundancy.<br />
+			</div>
+			<div>Designed hardware with industrial-grade components for extreme environments (-40°C to 85°C).</div>
+			<div>Developed a versatile logic board enabling devices to connect to the internet via multiple interfaces.</div>
+			<div>Ensured reliable network access for industrial and remote applications, supporting seamless data transmission across various communication channels.</div>
+			<div>Optimized for robust performance, providing stable and flexible networking solutions.</div>
+		</div>
+		<br />
+		<h3 id="compact-data-collection-platform-v3-2024">Compact Data Collection Platform V3 (2024)</h3>
+		<div>
+			<div>Developed a compact data logger PCB with a built-in solar charge controller for flexible power options (solar, battery, or wall adapter).</div>
+			<div>Integrated GSM modem with dual SIM support for reliable cellular communication and data transmission.</div>
+			<div>Included flash memory for local data storage and interfaces for versatile sensor integration: RS485, SDI-12, TTL, USB, Events, and I2C.</div>
+			<div>Designed to log and transmit data from various sensors at user-defined intervals or in real-time, ensuring robust data collection and communication.</div>
+			<div>Optimized for energy-efficient operation with support for both remote and stationary deployment scenarios.</div>
+		</div>
+		<br />
+		<h3 id="temperature-controlled-ventilation-2024">Temperature controlled ventilation (2024)</h3>
+		<div>
+			<div>Designed a PCB for controlling AC appliances with integrated Wi-Fi, BLE, Thread, and Zigbee for wireless communication and remote control.</div>
+			<div>Included a built-in 110-220 AC to 5V DC converter for powering the device, ensuring efficient energy management.</div>
+			<div>Equipped with 1 AC input and 2 controlled AC outputs, capable of handling up to 3200 Watts of load.</div>
+			<div>Implemented Triac firing angle control to regulate the amplitude of AC outputs, providing precise and smooth control of connected appliances.</div>
+			<div>Optimized for high-power applications, offering versatile control and remote management of AC devices.</div>
+		</div>
+		<br />
+		<h3 id="battery-monitoring-and-logging-pcb-2024">Battery Monitoring and Logging PCB (2024)</h3>
+		<div>
+			<div>Designed a small form factor PCB to fit within a battery pack for real-time monitoring and logging of critical battery parameters.</div>
+			<div>
+				<div>Integrated sensors to track state of charge (SOC), depth of discharge (DOD), current, and voltage for accurate battery health assessment.</div>
+			</div>
+			<div>Optimized for compact integration, providing a seamless solution for battery management in various applications.</div>
+		</div>
+		<br />
+		<h3 id="lora-communication-daughter-board-for-cdcp-2024">LoRa Communication Daughter Board for CDCP (2024)</h3>
+		<div>
+			<div>Developed a daughter board for the CDCP logic board, utilizing the LoRa LR1121 chipset for long-range, low-power communication.</div>
+			<div>Enabled LoRa point-to-point and LoRaWAN communication across a wide frequency range: 150 MHz to 960 MHz, 2.4 GHz, 2.1 GHz.</div>
+			<div>Designed to optimize battery life by providing efficient, long-range communication capabilities for IoT and remote sensing applications.</div>
+		</div>
+		<br />
+		<h3 id="g-modem-for-ims-2024">4G Modem for IMS (2024)</h3>
+		<div>
+			<div>Developed a snap-on PCB for the IMS board, enabling GSM communication with 4G modem and dual SIM support.</div>
+			<div>Integrated a logic level translator for seamless communication and compatibility with various power sources.</div>
+			<div>Included USB, Full UART, and power control pins for versatile connectivity and management.</div>
+			<div>Optimized for compact design and reliable cellular communication in infrastructure monitoring applications.</div>
+		</div>
+		<br />
+		<h3 id="ims-front-panels-2024">IMS Front Panels (2024)</h3>
+		<div>
+			<div>Developed a snap-on PCB for the IMS board, extending available interfaces to include RS485, SDI-12, CAN, RS232, UART-TTL, and GPIOs.</div>
+			<div>Enabled flexible sensor and device integration for enhanced functionality in infrastructure monitoring applications.</div>
+			<div>Designed for modular expansion and seamless interface connectivity, supporting a wide range of industrial communication protocols.</div>
+		</div>
+		<br />
+		<h3 id="satellite-communication-modem-2024">Satellite Communication Modem (2024)</h3>
+		<div>
+			<div>Integrated an Orbcomm satellite communication modem by Quectel or U-blox for reliable, low-cost satellite communication.</div>
+			<div>Supports battery-powered or DC input for flexible power options.</div>
+			<div>Includes UART-TTL and RS232 interfaces for seamless integration with remote devices and sensors.</div>
+			<div>Designed for remote communication, enabling critical data transfer in areas without terrestrial network infrastructure.</div>
+		</div>
+		<br />
+		<h3 id="satellite-communication-daughter-board-for-cdcp-2024">Satellite Communication Daughter Board for CDCP (2024)</h3>
+		<div>
+			<div>Developed a daughter board for the CDCP board, integrating an Orbcomm satellite modem for reliable satellite communication.</div>
+			<div>Included a boost regulator to ensure stable power delivery and efficient voltage conversion.</div>
+			<div>Enabled communication through a UART interface for seamless data transfer.</div>
+			<div>Designed with power control circuitry for optimal energy management and performance in remote applications.</div>
+		</div>
+		<br />
+		<h3 id="signal-amplifier-and-conditioning-circuit-2024">Signal Amplifier and Conditioning Circuit (2024)</h3>
+		<div>
+			<div>Designed a signal amplifier to enhance and condition the received signal for optimal input to the decoder circuitry.</div>
+			<div>Ensured signal integrity by minimizing noise and distortion, enabling accurate and reliable decoding in communication systems.</div>
+			<div>Optimized for efficient signal processing, supporting high-performance data transmission in various applications.</div>
+		</div>
+		<br />
+		<h3 id="radio-sonde-2023">Radio Sonde (2023)</h3>
+		<div>
+			<div>Designed a small form factor PCB for atmospheric data measurement, collecting temperature, humidity, and pressure across different layers of the atmosphere.</div>
+			<div>Integrated a GPS module for accurate geolocation, ensuring proper data pinning for analysis and processing.</div>
+			<div>Integrated an analog processor to derive environmental data from resistive and capacitive sensors for precise readings of temperature, humidity, and pressure.</div>
+			<div>Utilized LoRa radio communication with a frequency tuned around 500 MHz for reliable long-range data transmission.</div>
+			<div>Powered by a small battery attached to a balloon, enabling atmospheric data collection through various layers of the atmosphere.</div>
+			<div>Incorporated a dual-core MCU for enhanced reliability and processing performance in a compact, low-power design.</div>
+		</div>
+		<br />
+		<h3 id="smart-farming-iot-2022">Smart Farming IoT (2022)</h3>
+		<div>
+			<div>Designed a set of battery-powered node devices with wireless connectivity, incorporating LoRa/LoRaWAN for efficient long-range communication in smart farming applications.</div>
+			<div>Integrated actuators and sensors for real-time monitoring and control of environmental factors, enhancing farming efficiency.</div>
+			<div>Focused on creating low-power, scalable hardware solutions, enabling data-driven decision-making and automation in agriculture.</div>
+		</div>
+		<br />
+		<h3 id="sdi-12-isolator-2022">SDI-12 Isolator (2022)</h3>
+		<div>
+			<div>Designed a device that isolates both the power and SDI-12 data lines, ensuring safe and reliable communication between sensors and systems.</div>
+			<div>The device defaults to receive mode, automatically switching to transmit mode upon detecting a data write.</div>
+			<div>Focused on enhancing data integrity and protection in SDI-12 communication systems for environmental monitoring and other applications.</div>
+		</div>
+		<br />
+		<h3 id="landslide-monitor-using-rtk-gps-2021-2022">Landslide Monitor using RTK GPS (2021 – 2022)</h3>
+		<div>
+			<div>Designed and developed a real-time monitoring system for detecting land movement with centimeter-level precision using RTK GNSS.</div>
+			<div>Integrated high-accuracy GNSS modules with data logging and wireless communication for remote monitoring.</div>
+			<div>Implemented GNSS data acquisition, filtering, and terrain profiling algorithms to analyze movement patterns.</div>
+			<div>Enabled early detection of potential landslides through continuous position tracking and trend analysis</div>
+		</div>
+		<br />
+		<h3 id="battery-management-system-for-lithium-iron-yttrium-phosphate-battery-2022">Battery Management System for Lithium Iron Yttrium Phosphate Battery (2022)</h3>
+		<div>
+			<div>Designed a battery management system (BMS) for Lithium Iron Yttrium Phosphate (LiFeYPO4) battery chemistry.</div>
+			<div>Monitored individual cells for voltage, temperature, and health to ensure optimal performance and safety.</div>
+			<div>Controlled charging and discharging of the battery pack, providing efficient power management and protecting against overcharge, over-discharge, and thermal issues.</div>
+		</div>
+		<br />
+		<h3 id="upgrade-compact-data-collection-platform-v2-2021">Upgrade Compact Data Collection Platform V2 (2021)</h3>
+		<div>
+			<div>Enhanced boost power for improved efficiency and performance across various applications.</div>
+			<div>Implemented fast charging capabilities, reducing charging times while maintaining battery health and safety.</div>
+			<div>Improved Electromagnetic Interference (EMI) shielding for more stable and reliable operation in noisy environments.</div>
+			<div>Upgraded heat dissipation mechanisms for better thermal management, ensuring optimal performance under high loads.</div>
+		</div>
+		<br />
+		<h3 id="adc-expansion-board-for-cdcp-2020">ADC Expansion Board for CDCP (2020)</h3>
+		<div>
+			<div>Designed an expansion board for the CDCP, integrating a high-precision ADC for accurate data acquisition.</div>
+			<div>Incorporated a display for real-time data visualization, enabling easy monitoring and control.</div>
+			<div>Enhanced the overall functionality of the CDCP with precise measurements and user-friendly interface.</div>
+		</div>
+		<br />
+		<h3 id="capacitive-touch-keypad-for-queue-management-system-2020">Capacitive Touch Keypad for Queue Management System (2020)</h3>
+		<div>
+			<div>Designed a capacitive touch keypad for use in a Queue Management System, enabling touch-sensitive, responsive input.</div>
+			<div>Focused on user-friendly interaction and low-power consumption, enhancing the overall efficiency and reliability of the system.</div>
+			<div>Integrated with the Queue Management System for seamless data entry and control.</div>
+		</div>
+		<br />
+		<h3 id="automatic-meter-reading-2018">Automatic Meter Reading (2018)</h3>
+		<div>
+			<div>Designed a device that monitors energy meters and automatically posts data to a central server for real-time tracking and analysis.</div>
+			<div>Enabled remote monitoring of energy consumption, streamlining data collection and improving operational efficiency.</div>
+			<div>Focused on reliable data transmission and energy-efficient design for long-term deployment.</div>
+		</div>
+		<br />
+		<h3 id="door-access-controller-2017">Door Access Controller (2017)</h3>
+		<div>
+			<div>Developed a controller board for door access systems, supporting interfaces including I2C, Wiegand, and SPI for RFID integration.</div>
+			<div>Implemented open drain and relay outputs for door lock control, ensuring reliable access management.</div>
+			<div>Integrated UART communication for seamless connectivity with Wi-Fi and modem modules, enabling remote access and monitoring capabilities.</div>
+			<div>Focused on creating a versatile and secure access control solution with easy integration into diverse environments.</div>
+		</div>
+		<br />
+		<h3 id="rtdl-datalogger-2017">RTDL Datalogger (2017)</h3>
+		<div>
+			<div>Designed a full-fledged data logger with a high-precision 32-bit ADC for accurate data collection.</div>
+			<div>Integrated multiple communication interfaces, including SDI-12, RS485, RS232, Events, Open Drain Output Control, TTL, Ethernet, USB, I2C, and Pulse Input for versatile sensor integration.</div>
+			<div>Incorporated a display and buttons for real-time monitoring and easy device configuration.</div>
+			<div>Engineered to support a wide input voltage range (7-36V), ensuring reliable operation in diverse power environments.</div>
+			<div>Focused on creating a robust and flexible solution for data logging and remote monitoring across various industrial applications.</div>
+		</div>
+		<br />
+		<h3 id="infrastructure-monitoring-system-2017">Infrastructure Monitoring System (2017)</h3>
+		<div>
+			<div>Designed an embedded device that interfaces with various sensors, including a photoelectric smoke sensor, PIR-based motion sensor, contact-based water spill sensor, and reed-based door sensor for real-time monitoring.</div>
+			<div>Developed the system to alert users in case of alarm triggers, enhancing safety and security.</div>
+			<div>Integrated multiple communication options, such as Wi-Fi, BLE, Zigbee, LoRa, and Cellular gateway, for seamless internet connectivity and remote monitoring.</div>
+			<div>Focused on creating a scalable and reliable solution for infrastructure monitoring in diverse environments.</div>
+		</div>
+		<br />
+		<h3 id="communication-module-2017">Communication Module (2017)</h3>
+		<div>
+			<div>Designed an embedded communication device for reliable internet connectivity via cellular (GSM and CDMA) and satellite (Iridium) modems.</div>
+			<div>Integrated three modems to provide flexible, redundant connectivity options for remote and urban environments.</div>
+			<div>Focused on creating a robust and versatile solution for communication in areas with varying network availability, ensuring seamless data transfer.</div>
+		</div>
+		<br />
+		<h3 id="compact-data-collection-platform-cdcp-2016">Compact Data Collection Platform (CDCP, 2016)</h3>
+		<div>
+			<div>Designed a credit card-sized data logger and communication module with versatile interfaces, including ADC, SDI-12, RS485, I2C, Events, and USB (UFP and DFP).</div>
+			<div>Integrated a multi-chemistry battery charger with MPPT (Maximum Power Point Tracking) for efficient energy management and longer battery life.</div>
+			<div>Focused on creating a compact, all-in-one solution for data collection and communication in remote and field applications.</div>
+		</div>
+		<br />
+		<h3 id="audio-remote-terminal-unit-artu-2016">Audio Remote Terminal Unit (ARTU, 2016)</h3>
+		<div>
+			<div>Designed an embedded device for disseminating alerts via audio, ensuring effective communication in emergency situations.</div>
+			<div>Integrated an audio codec for high-quality sound output and a GSM/CDMA modem for reliable 3G internet connectivity.</div>
+			<div>Focused on creating a robust and efficient solution for remote alert systems with seamless connectivity and clear audio delivery.</div>
+		</div>
+		<br />
+		<h3 id="power-monitor-for-embedded-system-2016">Power monitor for Embedded System (2016)</h3>
+		<div>
+			<div>Designed a device to measure the power consumed by embedded systems, providing accurate and real-time power usage data.</div>
+			<div>Integrated features for monitoring power efficiency, helping to optimize embedded device performance and energy management.</div>
+			<div>Focused on delivering a cost-effective solution for analyzing and managing power consumption in embedded applications.</div>
+		</div>
+		<br />
+		<h3 id="power-and-signal-interface-unit-2016">Power and Signal Interface Unit (2016)</h3>
+		<div>
+			<div>Designed a device to translate data from Ethernet interface (IP protocol) to RS485 using a custom protocol.</div>
+			<div>Integrated this unit for use in Queue Management Systems, enabling seamless communication between different protocols.</div>
+			<div>Focused on creating a reliable and efficient solution to bridge communication gaps in industrial systems, ensuring smooth data transfer.</div>
+		</div>
+		<br />
+		<h3 id="extension-board-for-odroid-c2-2016">Extension Board for Odroid-C2 (2016)</h3>
+		<div>
+			<div>Designed an extension board for the Odroid-C2, expanding its interfaces to include DAC, ADC, and RS232 for enhanced functionality.</div>
+			<div>Enabled greater versatility in interfacing with a wide range of devices and sensors.</div>
+			<div>Focused on creating a compact and efficient solution to extend the capabilities of the Odroid-C2 platform for various applications.</div>
+		</div>
+		<br />
+		<h3 id="anti-theft-movement-sensor-2016">Anti-theft Movement Sensor (2016)</h3>
+		<div>
+			<div>Designed an anti-theft movement sensor integrating an MCU, accelerometer, and NO/NC contacts to detect suspicious movement and potential theft.</div>
+			<div>Developed the system to monitor device orientation, analyze behavior patterns, and trigger an alarm if theft is suspected.</div>
+			<div>Focused on creating a reliable, responsive solution for security applications, ensuring quick detection and response to unauthorized movement.</div>
+		</div>
+		<br />
+		<h3 id="controller-system-for-weighing-2015">Controller system for weighing (2015)</h3>
+		<div>
+			<div>Designed a controller for a weighing machine, ensuring accurate weight measurements and seamless integration with the system.</div>
+			<div>Focused on developing a reliable and efficient solution for precise weight control in industrial and commercial applications.</div>
+		</div>
+		<br />
+		<h3 id="single-phase-energy-meter-2015">Single Phase Energy Meter (2015)</h3>
+		<div>
+			<div>Designed a single-phase energy meter utilizing ASIC technology for accurate energy measurement.</div>
+			<div>Integrated RS485 and SDI-12 communication interfaces for seamless data transfer to a host device.</div>
+			<div>Enabled monitoring and logging of energy consumption data for improved tracking and analysis.</div>
+			<div>Focused on creating a reliable and efficient solution for energy measurement in residential and industrial applications.</div>
+		</div>
+		<br />
+		<h3 id="relay-and-triac-controller-2015">Relay and Triac Controller (2015)</h3>
+		<div>
+			<div>Designed a device that accepts commands from Data Terminal Equipment (DTE) to control relays and triacs for efficient power management.</div>
+			<div>Integrated an RS485 interface for reliable communication between the controller and external devices.</div>
+			<div>Focused on providing a flexible and robust solution for controlling high-voltage loads in industrial and automation systems.</div>
+		</div>
+		<br />
+		<h3 id="power-supply-for-audio-amplifier-2015">Power Supply for Audio Amplifier (2015)</h3>
+		<div>
+			<div>Designed an SMPS-based power supply for an audio amplifier, delivering up to 580 watts of power for high-performance audio systems.</div>
+			<div>Focused on achieving high efficiency and stable voltage regulation to support the amplifier’s power demands without distortion.</div>
+			<div>Ensured reliable performance in demanding audio environments, optimizing power delivery and minimizing noise.</div>
+		</div>
+		<br />
+		<h3 id="power-supply-for-tele-terminal-2015">Power Supply for Tele-Terminal (2015)</h3>
+		<div>
+			<div>Designed a power supply capable of supporting a 60-watt monitor, 30-watt router, and 20-watt embedded device within a tele-terminal setup.</div>
+			<div>Ensured efficient power distribution to multiple devices, meeting their specific power requirements while maintaining stability and reliability.</div>
+			<div>Focused on providing a compact and reliable solution for powering telecommunication and embedded systems.</div>
+		</div>
+		<br />
+		<h3 id="multipurpose-ethernet-board-2015">Multipurpose Ethernet Board (2015)</h3>
+		<div>
+			<div>Designed a general-purpose embedded device featuring a built-in audio codec with preamp, Ethernet, I2S, RS485, SDI-12, Triac-controlled output, RS232, and GPIOs for versatile integration.</div>
+			<div>Enabled seamless connectivity and control for a wide range of applications, including audio processing, data communication, and device management.</div>
+			<div>Focused on delivering a flexible, scalable solution for diverse embedded system needs, ensuring efficient performance across different interfaces.</div>
+		</div>
+		<br />
+		<h3 id="lora-wireless-remote-terminal-unit-2015">LoRa Wireless Remote Terminal Unit (2015)</h3>
+		<div>
+			<div>Designed and developed a power-efficient embedded device for communication between devices using LoRaWAN/LoRa technology.</div>
+			<div>Focused on achieving low power consumption and long-range communication for remote and IoT applications.</div>
+			<div>Integrated firmware programming for reliable data transmission, ensuring robust performance in challenging environments.</div>
+		</div>
+		<br />
+		<h3 id="vehicle-guard-and-fleet-management-2015">Vehicle Guard and Fleet Management (2015)</h3>
+		<div>
+			<div>Designed a vehicle guard and fleet management system integrating an MCU, cellular modem, accelerometer, and CAN-Bus for real-time monitoring.</div>
+			<div>Utilized OBD2 protocol to communicate with vehicles, enabling remote diagnostics and fleet tracking.</div>
+			<div>Focused on creating a robust and scalable solution for enhancing fleet management, monitoring vehicle health, and improving operational efficiency.</div>
+		</div>
+		<br />
+		<h3 id="lightning-and-surge-arrester-module-2015">Lightning and Surge Arrester Module (2015)</h3>
+		<div>
+			<div>Designed a three-stage protection system to safeguard RS485 and SDI-12 signal and power lines from lightning and surge.</div>
+			<div>Provided protection for both differential and balanced digital/analog lines, preventing damage from transients and surges.</div>
+			<div>Focused on enhancing the reliability and durability of control and communication systems in harsh environments.</div>
+		</div>
+		<br />
+		<h3 id="reflow-oven-controller-board-2015">Reflow Oven Controller Board (2015)</h3>
+		<div>
+			<div>Designed a controller board to track and maintain the reflow curve in reflow ovens for precise soldering temperature control.</div>
+			<div>Focused on ensuring accurate and consistent temperature profiles to optimize soldering quality and efficiency in PCB assembly.</div>
+			<div>Developed a reliable solution to improve the performance and precision of reflow soldering processes.</div>
+		</div>
+		<h3 id="university-major-project-brain-control-system-2014">University Major Project (Brain Control System, 2014)</h3>
+		<div>
+			<div>It is an extension to the smart wheelchair (minor project). Furthermore, it equips with EEG probes, which captures signals from brain and processed to control the wheelchair.</div>
+		</div>
+		<h3 id="university-minor-project-smart-wheelchair-2013">University Minor Project (Smart Wheelchair, 2013)</h3>
+		<div>
+			<div>A wheelchair that can be controlled by joystick, voice, head gesture. It uses gyroscope for path correction, accelerometer for head gesture, ultrasonic sensor for collision detection.</div>
+		</div>
+		<br />
+		<h2 id="firmware">Firmware</h2>
+		<br />
+		<h3 id="test-firmware-for-low-power-sensor-nodes-2025">Test Firmware for Low power Sensor nodes (2025)</h3>
+		<div>
+			<div>Developed firmware to evaluate BLE 5.4 performance in both Central and Peripheral roles, supporting 1M PHY, 2M PHY, and Coded PHY.</div>
+			<div>Enabled real-time configuration of communication settings to test various operational scenarios.</div>
+			<div>Integrated power consumption profiling to optimize energy efficiency across different PHY configurations.</div>
+		</div>
+		<br />
+		<h3 id="cdcp-test-firmware-2019-2024---upgrade">CDCP Test Firmware (2019; 2024 - upgrade)</h3>
+		<div>
+			<div>Developed automated test firmware for the CDCP logic board, written in C using CMSIS-OS.</div>
+			<div>Implemented thorough testing routines to verify the functionality of all interfaces and ICs, ensuring the board’s reliability and performance.</div>
+			<div>Focused on streamlining the testing process and improving the efficiency of the validation process for the CDCP logic board.</div>
+		</div>
+		<br />
+		<h3 id="rtk-integration-with-adcp-2023-2024">RTK Integration with ADCP (2023-2024)</h3>
+		<div>
+			<div>Developed firmware to integrate RTK (Real-Time Kinematic) positioning with the Acoustic Doppler Current Profiler (ADCP) device.</div>
+			<div>Ensured precise synchronization between RTK data and ADCP measurements for enhanced accuracy in current profiling.</div>
+			<div>Focused on improving data accuracy and real-time performance for marine and environmental monitoring applications.</div>
+		</div>
+		<br />
+		<h3 id="acconeer-test-firmware-2023">Acconeer Test firmware (2023)</h3>
+		<div>
+			<div>Developed firmware to configure the Acconeer Radar IC, perform measurements, and receive the collected data.</div>
+			<div>Implemented functionality to store the received data and post it to a server at user-defined intervals via a GSM modem.</div>
+			<div>Focused on optimizing data collection and transmission, ensuring reliable performance for remote monitoring applications.</div>
+		</div>
+		<br />
+		<h3 id="rtk-system-2023">RTK system (2023)</h3>
+		<div>
+			<div>Developed firmware to configure an RTK module as either a Base or Rover, based on user-defined settings.</div>
+			<div>Key functionalities include:
+				<div>
+					<div>Base Mode: Receives RTK corrections and streams them to an NTRIP caster for external use.</div>
+					<div>Rover Mode: Downloads RTK corrections from an NTRIP caster, processes the data, and pushes the corrected position data to a Time Series Software server.</div>
+					<div>Orientation Detection: Utilized a digital accelerometer via SPI to detect the device’s orientation, enabling dynamic adjustments to RTK data.</div>
+					<div>Configurable Post Interval: Allowed users to define post-processing intervals (real-time or periodic) for optimized data handling and transmission.</div>
+				</div></div>
+		</div>
+		<br />
+		<h3 id="seismologger-2023">Seismologger (2023)</h3>
+		<div>
+			<div>Developed firmware for real-time seismic data acquisition using a Geophone, sampling at 100 samples per second.</div>
+			<div>Designed and implemented a data pipeline that converts ADC readings into Mini-SEED format, encapsulates them in Datalink protocol, and transmits them over TCP to a Ring server.</div>
+			<div>Engineered a fault-tolerant data buffering system with 8MB RAM for temporary storage, ensuring data integrity during connectivity failures.</div>
+			<div>Implemented an automatic data management mechanism that moves older data to FLASH storage when RAM reaches capacity, enabling seamless retransmission upon reconnection.</div>
+			<div>Optimized memory usage, data transmission, and system reliability for continuous operation in unstable network conditions.</div>
+		</div>
+		<br />
+		<h3 id="radio-sonde-firmware-2023">Radio Sonde Firmware (2023)</h3>
+		<div>
+			<div>Developed dual-core STM32 microcontroller firmware, with Core 0 dedicated to radio tasks and Core 1 handling application functions, utilizing IPC message box for efficient communication between cores.</div>
+			<div>Implemented Core 0 for managing radio operations, including initialization, configuration, data transmission, and reception, using STM32’s Sequencer for optimized interrupt-based execution.</div>
+			<div>Utilized Core 1 to acquire GPS data, temperature, and humidity readings from an analog processor, process and pack the data, then trigger Core 0 for transmission.</div>
+			<div>Enabled data transfer to a host device via USB on the base station, ensuring seamless communication.</div>
+			<div>Wrote assembly-level firmware for an analog processor to accurately measure humidity (capacitance-based) and temperature (resistance-based), utilizing current, voltage, and timing controls.</div>
+		</div>
+		<br />
+		<h3 id="test-firmware-for-lr1121-lora-chipset-2023">Test firmware for LR1121 lora chipset (2023)</h3>
+		<div>
+			<div>Developed firmware for testing range among LoRa nodes, configuring the LoRa transceiver IC LR1121 to operate across various radio parameters such as Spreading Factor, frequency, data rate, and bandwidth.</div>
+			<div>Implemented a GPS-time synchronization mechanism to ensure all devices share the same configuration at a given time, with configuration changes occurring every 5 seconds.</div>
+			<div>Designed multiple operation modes, including Loopback mode, where the receiver sends back the same message to the transmitter, and a chat-like message sending mode for user interaction.</div>
+			<div>Integrated activity logging to capture radio and user parameters for in-depth analysis and performance evaluation.</div>
+			<div>Provided flexibility for users to adjust parameters and test various scenarios in real-time communication and radio performance.</div>
+		</div>
+		<br />
+		<h3 id="test-firmware-for-piezo-pressure-sensor-2022">Test firmware for Piezo pressure sensor (2022)</h3>
+		<div>
+			<div>Developed test firmware for the Geokon 4500S Piezo Pressure Sensor, generating an excitation signal with a frequency sweep from 1400Hz to 3500Hz.</div>
+			<div>Implemented signal processing to detect the sensor’s response frequency, which varies with pressure.</div>
+			<div>Derived pressure values from the sensor’s response frequency using the equation, constants, and calibration data provided by the manufacturer.</div>
+			<div>Enabled real-time pressure calculations based on sensor feedback, ensuring precise and accurate pressure measurements.</div>
+		</div>
+		<br />
+		<h3 id="ble-keyboard-2020">BLE Keyboard (2020)</h3>
+		<div>
+			<div>Developed firmware for a BLE microcontroller to enable BLE HID (Bluetooth Low Energy Human Interface Device) functionality, allowing communication with BLE-enabled devices.</div>
+			<div>Interfaced the system with a PS2 keyboard, using the PS2 protocol to read and process keystrokes.</div>
+			<div>Converted an old PS2 keyboard into a wireless BLE keyboard, making it compatible as a Bluetooth HID device.</div>
+			<div>Ensured reliable and efficient wireless data transmission for smooth, real-time communication with compatible BLE devices.</div>
+		</div>
+		<br />
+		<h3 id="sdi-12-converter-2019">SDI-12 Converter (2019)</h3>
+		<div>
+			<div>Developed firmware to listen for incoming data from all interfaces and forward the data to all other interfaces.</div>
+			<div>Implemented a robust data forwarding mechanism ensuring seamless communication between multiple interfaces.</div>
+			<div>Optimized the system for efficient data handling and minimal latency across all connected interfaces.</div>
+		</div>
+		<br />
+		<h3 id="ups-monitoring-system-2019">UPS Monitoring System (2019)</h3>
+		<div>
+			<div>Developed firmware to interface with an Online-UPS via RS232 to continuously monitor its status and health.</div>
+			<div>Implemented MQTT protocol for real-time communication, alerting users via the internet to client devices when action is required.</div>
+			<div>Ensured reliable status monitoring and prompt notifications, improving system uptime and user awareness.</div>
+		</div>
+		<br />
+		<h3 id="wireless-calling-system-2017">Wireless Calling System (2017)</h3>
+		<div>
+			<div>Developed firmware to send instant notifications through Wi-Fi or Bluetooth when action buttons are pressed.</div>
+			<div>Utilized efficient communication protocols to ensure quick and reliable delivery of notifications to connected devices.</div>
+			<div>Enhanced user experience by providing real-time feedback via wireless connections.</div>
+		</div>
+		<br />
+		<h2 id="software">Software</h2>
+		<br />
+		<h3 id="unixevents-for-python-2025-open-source"><a href="https://github.com/rohsins/unixevents_py">Unixevents for python</a> [2025 | Open source]</h3>
+		<div>
+			<div>Implemented unixevents, library originally written for js(nodejs), for python.</div>
+			<div>A message sent over a Unixevents channel from a process written in Python can be seamlessly received by a process written in JavaScript (Node.js), and vice versa.</div>
+		</div>
+		<br />
+		<h3 id="implementation-of-ntrip-server-2023">Implementation of NTRIP server (2023)</h3>
+		<div>
+			<div>Implemented an NTRIP server on an AWS EC2 instance to facilitate a Real-Time Kinematic (RTK) GPS system.</div>
+			<div>Configured the server to deliver accurate correction data from reference stations to GNSS receivers, enabling high-precision positioning in real-time.</div>
+			<div>Ensured low-latency, reliable data transmission for uninterrupted RTK operations.</div>
+			<div>Managed and optimized AWS infrastructure for scalability, security, and efficient server performance.</div>
+		</div>
+		<br />
+		<h3 id="datalink-server-2023">Datalink Server (2023)</h3>
+		<div>
+			<div>Developed a Datalink Protocol library and software in Rust for receiving and processing mini-seed data from the Seismologger.</div>
+			<div>Implemented efficient and robust data handling to support real-time data transmission from the Seismologgers to the server.</div>
+			<div>Ensured the reliability and scalability of the software for seamless integration with earthquake monitoring systems.</div>
+		</div>
+		<br />
+		<h3 id="chrome-extension-for-ims-2023">Chrome Extension for IMS (2023)</h3>
+		<div>
+			<div>Developed a Chrome extension to display real-time status updates and notifications triggered by IMS devices.</div>
+			<div>Integrated the extension with IMS device APIs to receive and display critical notifications directly within the browser.</div>
+			<div>Optimized the user interface for seamless interaction and quick access to device status and alerts.</div>
+		</div>
+		<br />
+		<h3 id="update-server-2023">Update server (2023)</h3>
+		<div>
+			<div>Developed an update server to manage and update parameters such as settings, configurations, and OTA updates for various devices including CDCP, IMS, RTDL, ARTU, and others.</div>
+			<div>Implemented secure and efficient communication protocols for seamless delivery of configuration updates and firmware upgrades across different device types.</div>
+			<div>Ensured reliable update processes with rollback capabilities in case of failures, maintaining system stability and consistency.</div>
+		</div>
+		<br />
+		<h3 id="p-alert-integration-2023">P-Alert integration (2023)</h3>
+		<div>
+			<div>Developed software in Rust to receive data from a P-alert seismic device, utilizing a custom protocol for communication.</div>
+			<div>Reverse-engineered the custom protocol to understand the data structure and developed a parser to interpret the incoming data.</div>
+			<div>Implemented a TCP socket-based communication system to reliably receive seismic data in real-time from the P-alert device.</div>
+		</div>
+		<br />
+		<h3 id="frontend-for-identity-and-access-management-cactus-2022">Frontend for Identity and Access Management (Cactus, 2022)</h3>
+		<div>
+			<div>Developed a responsive and secure frontend application using Next.js, serving as the primary user interface for interacting with backend microservices.</div>
+			<div>Integrated with Identity and Access Management (IAM) systems to handle authentication and authorization flows securely.</div>
+			<div>Coordinated with an API Gateway to manage API requests, ensuring secure and efficient communication between frontend and backend.</div>
+			<div>Implemented best practices for token management, client-side routing, and state management to enhance user experience.</div>
+		</div>
+		<br />
+		<h3 id="api-gateway-2022">Api gateway (2022)</h3>
+		<div>
+			<div>Designed and implemented a centralized API Gateway to route and orchestrate traffic across multiple microservices with support for RESTful and internal service calls.</div>
+			<div>Developed a custom rule-based policy engine enabling granular access control per user, endpoint, method, and role – allowing dynamic enforcement of security and authorization rules.</div>
+			<div>Implemented session management service for secure, stateful tracking of authenticated users across distributed services, supporting token refresh, expiry, and concurrent session handling.</div>
+			<div>Integrated authentication mechanisms and enforced per client rate limiting, IP whitelisting, and request validation.</div>
+		</div>
+		<br />
+		<h3 id="identity-and-access-management-iam-2021">Identity and Access Management (IAM) (2021)</h3>
+		<div>
+			<div>Built and maintained a centralized IAM system for managing users, roles, and access rights across internal and external applications.</div>
+			<div>Implemented authentication protocols.</div>
+			<div>Defined an enforced RBAC authoriztion rules for services and APIs to ensure least-privilege access.</div>
+			<div>Developed a custom policy engine to evaluate access decisions based on user identity, resource type, request time, and origin.</div>
+		</div>
+		<br />
+		<h3 id="contact-tracing-2020">Contact Tracing (2020)</h3>
+		<div>
+			<div>Developed an Android application for contact tracing during the Covid-19 pandemic, designed to help identify and track potential exposure to the virus.</div>
+			<div>Implemented Bluetooth-based proximity detection to record close contacts and alert users in case of exposure to an infected individual.</div>
+			<div>Integrated privacy-focused features to ensure user data security while complying with health regulations and guidelines.</div>
+			<div>Enabled real-time notifications to inform users of potential risks and facilitate faster response and safety measures.</div>
+		</div>
+		<br />
+		<h3 id="cdcp-testing-software-2019">CDCP Testing Software (2019)</h3>
+		<div>
+			<div>Developed a testing application in Qt to validate and verify the hardware functionalities of the Compact Data Collection Platform (CDCP).</div>
+			<div>Implemented testing modules to assess the performance of sensors, interfaces, and communication protocols to ensure proper operation.</div>
+			<div>Created an intuitive user interface to simplify configuration, monitor testing processes in real time, and generate detailed reports.</div>
+			<div>Optimized the software to ensure accurate testing and efficient data collection for performance analysis.</div>
+		</div>
+		<br />
+		<h3 id="network-server-2017-2019">Network Server (2017 – 2019)</h3>
+		<div>
+			<div>Developed software to facilitate communication between embedded devices, ensuring seamless data exchange and coordination across the system.</div>
+			<div>Implemented reliable communication protocols to support real-time data transmission and synchronization among devices.</div>
+			<div>Optimized the software for low-latency and high-performance operation, ensuring efficient device communication in resource-constrained environments.</div>
+			<div>Ensured robust error handling and data integrity during communication, improving system reliability.</div>
+		</div>
+		<br />
+		<h3 id="customized-linux-kernel-for-embedded-system-2019">Customized Linux Kernel for Embedded System (2019)</h3>
+		<div>
+			<div>Customized Linux Kernel for Embedded Device with i.MX6SX Dual-Core Heterogeneous Processor.</div>
+			<div>Developed and tailored a custom Linux kernel for an embedded system based on the NXP i.MX6SX SoC, featuring a heterogeneous dual-core architecture (ARM Cortex-A9 + Cortex-M4).</div>
+			<div>Key contributions include:
+				<div>
+					<div>Kernel Configuration and Optimization.</div>
+					<div>Device Tree Customization.</div>
+					<div>U-Boot &amp; Bootloader Integration.</div>
+					<div>M4 Firmware Co-existence.</div>
+					<div>Peripheral Driver Development.</div>
+					<div>Power Management &amp; Suspend/Resume.</div>
+				</div></div>
+		</div>
+		<br />
+		<h3 id="customized-bootloader-for-embedded-system-2019">Customized Bootloader for Embedded System (2019)</h3>
+		<div>
+			<div>Developed a bootloader for a custom embedded device utilizing the IMX6SX processor.</div>
+			<div>Forked and customized the open-source Das U-Boot bootloader from the Freescale repository to meet specific device requirements.</div>
+			<div>Enabled efficient and secure booting of the device, ensuring smooth initialization and firmware loading.</div>
+			<div>Optimized bootloader performance for faster boot times and reliable device-specific configurations.</div>
+		</div>
+		<br />
+		<h3 id="lora-connector-for-network-server-2019">LoRa Connector for Network Server (2019)</h3>
+		<div>
+			<div>Developed a connector to facilitate protocol translation between LoRaWAN devices and the Network Server.</div>
+			<div>Implemented seamless data exchange by translating LoRaWAN messages into a format compatible with the network server, ensuring smooth communication.</div>
+			<div>Optimized performance for low-latency transmission and efficient data handling, enhancing system reliability.</div>
+			<div>Ensured robust error handling and protocol compatibility to maintain consistent and secure communication.</div>
+		</div>
+		<br />
+		<h3 id="unixevents-2019"><a href="https://github.com/rohsins/unixevents">Unixevents</a> (2019)</h3>
+		<div>
+			<div>Developed a Node.js library to facilitate communication between Node.js applications via Unix sockets and Node.js events.</div>
+			<div>Implemented efficient message exchange and event-based communication, ensuring smooth interaction between distributed applications.</div>
+			<div>Optimized for low-latency performance, scalability, and seamless integration with existing Node.js projects.</div>
+			<div>Ensured reliable handling of multiple connections and events in a concurrent environment.</div>
+		</div>
+		<br />
+		<h3 id="ram-database-2018">RAM Database (2018)</h3>
+		<div>
+			<div>Developed a database to manage cache and routing tables for a Network Server, optimizing data storage and retrieval.</div>
+			<div>Implemented efficient data structures for fast lookups, ensuring quick access to routing information and reducing server latency.</div>
+			<div>Designed the system to support high-throughput environments, maintaining real-time performance for network operations.</div>
+			<div>Ensured data consistency and integrity across the cache and routing tables to support reliable network communication.</div>
+		</div>
+		<br />
+		<h3 id="customized-mqtt-broker-2018">Customized MQTT Broker (2018)</h3>
+		<div>
+			<div>Forked and customized the Mosquitto MQTT broker from the Paho repository, incorporating nonstandard functionality to address specific use case requirements.</div>
+			<div>Added new features and optimizations to enhance performance, security, and scalability beyond the default MQTT specifications.</div>
+			<div>Tailored the broker to support custom message processing and extended protocols, ensuring efficient, low-latency communication.</div>
+			<div>Maintained compatibility with MQTT standards while integrating unique functionalities into the system.</div>
+		</div>
+		<br />
+		<h3 id="customized-lorawan-packet-forwarder-2017">Customized LoRaWAN Packet forwarder (2017)</h3>
+		<div>
+			<div>Modified and enchanced the Semtech LoRaWAN packet forwarder to include extended communication logging with the LoRa Network Server.</div>
+			<div>Implemented additional diagnostic and debugging features to improve network monitoring and fault analysis.</div>
+			<div>Maintained compatibility with the original protocol while optimizing for custom deployment needs.</div>
+		</div>
+		<br />
+		<h3 id="wcs-firmware-validator-2017">WCS Firmware Validator (2017)</h3>
+		<div>
+			<div>A GUI-based software tool that takes a generic firmware image and customizes it for a specific device by encrypting the firmware with a device-specific key, ensuring that only the intended device can decrypt and run it.</div>
+		</div>
+		<br />
+		<h3 id="flood-alert-service-2016">Flood Alert Service (2016)</h3>
+		<div>
+			<div>Developed software to connect to the SMPP gateway of a cellular service provider for disseminating alert messages to flood-prone areas.</div>
+			<div>Designed specifically for the Department of Hydrology and Meteorology, enabling timely distribution of critical weather and flood alerts to the public.</div>
+			<div>Ensured reliable message delivery with high availability and low latency, critical for emergency situations.</div>
+			<div>Optimized the system to handle large volumes of messages during high-alert events, ensuring quick and efficient communication.</div>
+		</div>
+		<br />
+		<h3 id="lcr-telemetry-2015">LCR Telemetry (2015)</h3>
+		<div>
+			<div>Developed an Android application for remotely displaying LCR (Inductance, Capacitance, and Resistance) parameters over TCP/IP.</div>
+			<div>Implemented real-time data fetching from remote devices, enabling users to instantly view LCR measurements.</div>
+		</div>
+		<br />
+		<h2 id="computer-aided-design-cad">Computer Aided Design (CAD)</h2>
+		<br />
+		<h3 id="enclosure-design-for-infrastructure-monitoring-system">Enclosure Design for Infrastructure Monitoring System</h3>
+		<div>
+			<div>Designed 3D-printable enclosures for an infrastructure monitoring system, optimized for rapid prototyping and validation.</div>
+			<div>Created detailed 3D CAD models and engineering drawings, ensuring accurate fit with PCBs, sensors, and connectors.</div>
+			<div>Iterated enclosure prototypes using FDM 3D printing, validating tolerances, assembly, and ergonomics before production tooling.</div>
+			<div>Considered thermal performance, mechanical strength, and IP-rated sealing features in the design.</div>
+			<div>Collaborated with hardware, firmware, and QA teams to align enclosure design with system requirements and manufacturability.</div>
+			<div>Designed 3D-printable enclosures for an infrastructure monitoring system, optimized for rapid prototyping and validation.</div>
+			<div>Created detailed 3D CAD models and engineering drawings, ensuring accurate fit with PCBs, sensors, and connectors.</div>
+			<div>Iterated enclosure prototypes using FDM 3D printing, validating tolerances, assembly, and ergonomics before production tooling.</div>
+			<div>Considered thermal performance, mechanical strength, and IP-rated sealing features in the design.</div>
+			<div>Collaborated with hardware, firmware, and QA teams to align enclosure design with system requirements and manufacturability.</div>
+		</div>
+		<br />
+		<h3 id="enclosure-design-for-temperature-controlled-ventilation">Enclosure Design for Temperature Controlled Ventilation</h3>
+		<div>
+			<div>Designed enclosure for Temperataure Controlled Ventilation hardware.</div>
+			<div>It has a cutouts for 3 buttons, display, 2 temperature sensor and AC input and output connectors.</div>
+			<div>It has a flange to mount it on a wall.</div>
+		</div>
+		<br />
+		<h3 id="enclosure-design-for-lora-remote-terminal-unit">Enclosure Design for LoRa Remote Terminal Unit</h3>
+	</div>
