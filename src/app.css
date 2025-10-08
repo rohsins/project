@@ -1,32 +1,11 @@
 /* @import "tailwindcss"; */
 
-#app {
-	margin: 10px;
+ul {
+	padding-left: 2rem;
 }
 
 a {
 	color: lightgrey;
-}
-
-a.deptTitle {
-	font-size: 1.35rem;
-	font-weight: bold;
-}
-
-li.deptTitle {
-	position: sticky;
-	top: 0;
-	margin-top: 1rem;
-	margin-bottom: 0.2rem;
-}
-
-h2.deptTitle {
-	position: sticky;
-	top: 0;
-	font-size: 1.75rem;
-	margin-top: 3rem;
-	margin-left: 0.25rem;
-	margin-bottom: 0rem;
 }
 
 .title {
@@ -40,6 +19,26 @@ h2.deptTitle {
 	text-align: center;
 }
 
+li.deptTitle {
+	position: sticky;
+	top: 0;
+	font-size: 1.35rem;
+	font-weight: bold;
+	padding-top: 0.45rem;
+	padding-bottom: 0.75rem;
+	background: #242424;
+}
+
+h2.deptTitle {
+	position: sticky;
+	top: 0;
+	font-size: 1.65rem;
+	padding-left: 2rem;
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+	background: #242424;
+}
+
 /*.projTitle {
 	font-size: 1.25rem;
 	font-weight: bold;
@@ -47,19 +46,19 @@ h2.deptTitle {
 
 h3.projTitle {
 	position: sticky;
-	top: 200;
+	top: 3.65rem;
 	font-size: 1.25rem;
-	margin: 0rem;
-	margin-top: 1rem;
-	margin-left: 1rem;
+	padding-left: 1rem;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	background: #242424;
 }
 
 .projDesc {
 	font-size: 1rem;
 	font-weight: normal;
-	margin: 0rem;
-	margin-top: 0.25rem;
-	margin-left: 1rem;
+	padding-left: 3rem;
+	padding-top: 0.25rem;
 	margin-bottom: 1.25rem;
 }
 

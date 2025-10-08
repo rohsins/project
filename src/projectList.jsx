@@ -24,7 +24,7 @@ export const ProjectList = _ =>
 				<li><a href="#smart-farming-iot-2022">Smart Farming IoT (2022)</a></li>
 				<li><a href="#sdi-12-isolator-2022">SDI-12 Isolator (2022)</a></li>
 				<li><a href="#landslide-monitor-using-rtk-gps-2021--2022">Landslide Monitor using RTK GPS (2021 – 2022)</a></li>
-				<li><a href="#battery-management-system-for-lithium-iron-yttrium-phosphate-battery-2022">Battery Management System for Lithium Iron Yttrium Phosphate Battery (2022)</a></li>
+				<li><a href="#battery-management-system-for-lyp-battery-2022">Battery Management System for LYP Battery (2022)</a></li>
 				<li><a href="#upgrade-compact-data-collection-platform-v2-2021">Upgrade Compact Data Collection Platform V2 (2021)</a></li>
 				<li><a href="#adc-expansion-board-for-cdcp-2020">ADC Expansion Board for CDCP (2020)</a></li>
 				<li><a href="#capacitive-touch-keypad-for-queue-management-system-2020">Capacitive Touch Keypad for Queue Management System (2020)</a></li>
@@ -97,7 +97,6 @@ export const ProjectList = _ =>
 		</ul>
 
 		<h2 id="hardware" class="deptTitle">Hardware</h2>
-		<hr />
 
 		<h3 id="datalogger-xxi-high-performance-data-logging-system-2025" class="projTitle">Datalogger-XXI: High-Performance Data Logging System (2025)</h3>
 		<ul class="projDesc">
@@ -251,7 +250,7 @@ export const ProjectList = _ =>
 			<li>Enabled early detection of potential landslides through continuous position tracking and trend analysis</li>
 		</ul>
 		
-		<h3 id="battery-management-system-for-lithium-iron-yttrium-phosphate-battery-2022" class="projTitle">Battery Management System for Lithium Iron Yttrium Phosphate Battery (2022)</h3>
+		<h3 id="battery-management-system-for-lyp-battery-2022" class="projTitle">Battery Management System for LYP Battery (2022)</h3>
 		<ul class="projDesc">
 			<li>Designed a battery management system (BMS) for Lithium Iron Yttrium Phosphate (LiFeYPO4) battery chemistry.</li>
 			<li>Monitored individual cells for voltage, temperature, and health to ensure optimal performance and safety.</li>
@@ -442,7 +441,7 @@ export const ProjectList = _ =>
 		</ul>
 		
 		<h2 id="firmware" class="deptTitle">Firmware</h2>
-		<hr />
+		<hr2 />
 
 		<h3 id="test-firmware-for-low-power-sensor-nodes-2025" class="projTitle">Test Firmware for Low power Sensor nodes (2025)</h3>
 		<ul class="projDesc">
@@ -549,7 +548,7 @@ export const ProjectList = _ =>
 		</ul>
 		
 		<h2 id="software" class="deptTitle">Software</h2>
-		<hr />
+		<hr2 />
 
 		<h3 id="unixevents-for-python-2025-open-source" class="projTitle"><a href="https://github.com/rohsins/unixevents_py">Unixevents for python</a> [2025 | Open source]</h3>
 		<ul class="projDesc">
@@ -723,7 +722,7 @@ export const ProjectList = _ =>
 		</ul>
 		
 		<h2 id="computer-aided-design-cad" class="deptTitle">Computer Aided Design (CAD)</h2>
-		<hr />
+		<hr2 />
 
 		<h3 id="enclosure-design-for-infrastructure-monitoring-system" class="projTitle">Enclosure Design for Infrastructure Monitoring System</h3>
 		<ul class="projDesc">
