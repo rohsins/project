@@ -8,6 +8,11 @@ a {
 	color: lightgrey;
 }
 
+hr {
+	position:sticky;
+	top: 3.65rem;
+}
+
 .title {
 	font-size: 2rem;
 	font-weight: bold;
@@ -46,7 +51,8 @@ h2.deptTitle {
 
 h3.projTitle {
 	position: sticky;
-	top: 3.65rem;
+	/*top: 3.65rem;*/
+	top: 3.775rem; /* 3.65 + 0.125 (height of <hr /> tag) */
 	font-size: 1.25rem;
 	padding-left: 1rem;
 	padding-top: 0.3rem;

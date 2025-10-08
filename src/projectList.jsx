@@ -97,6 +97,7 @@ export const ProjectList = _ =>
 		</ul>
 
 		<h2 id="hardware" class="deptTitle">Hardware</h2>
+		<hr />
 
 		<h3 id="datalogger-xxi-high-performance-data-logging-system-2025" class="projTitle">Datalogger-XXI: High-Performance Data Logging System (2025)</h3>
 		<ul class="projDesc">
@@ -441,7 +442,7 @@ export const ProjectList = _ =>
 		</ul>
 		
 		<h2 id="firmware" class="deptTitle">Firmware</h2>
-		<hr2 />
+		<hr />
 
 		<h3 id="test-firmware-for-low-power-sensor-nodes-2025" class="projTitle">Test Firmware for Low power Sensor nodes (2025)</h3>
 		<ul class="projDesc">
@@ -548,7 +549,7 @@ export const ProjectList = _ =>
 		</ul>
 		
 		<h2 id="software" class="deptTitle">Software</h2>
-		<hr2 />
+		<hr />
 
 		<h3 id="unixevents-for-python-2025-open-source" class="projTitle"><a href="https://github.com/rohsins/unixevents_py">Unixevents for python</a> [2025 | Open source]</h3>
 		<ul class="projDesc">
@@ -722,7 +723,7 @@ export const ProjectList = _ =>
 		</ul>
 		
 		<h2 id="computer-aided-design-cad" class="deptTitle">Computer Aided Design (CAD)</h2>
-		<hr2 />
+		<hr />
 
 		<h3 id="enclosure-design-for-infrastructure-monitoring-system" class="projTitle">Enclosure Design for Infrastructure Monitoring System</h3>
 		<ul class="projDesc">
