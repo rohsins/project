@@ -11,6 +11,11 @@ a {
 hr {
 	position:sticky;
 	top: 3.65rem;
+	z-index: 2;
+}
+
+model-viewer {
+	height: auto;
 }
 
 .title {
@@ -47,6 +52,7 @@ li.deptTitle {
 h2.deptTitle {
 	position: sticky;
 	top: 0;
+	z-index: 2;
 	font-size: 1.65rem;
 	padding-left: 2rem;
 	padding-top: 0.6rem;
@@ -63,6 +69,7 @@ h3.projTitle {
 	position: sticky;
 	/*top: 3.65rem;*/
 	top: 3.775rem; /* 3.65 + 0.125 (height of <hr /> tag) */
+	z-index: 2;
 	font-size: 1.25rem;
 	padding-left: 1rem;
 	padding-top: 0.3rem;
@@ -76,5 +83,10 @@ h3.projTitle {
 	padding-left: 3rem;
 	padding-top: 0.25rem;
 	margin-bottom: 1.25rem;
+}
+
+.projDescContainer {
+	display: flex;
+	flex-direction: row;
 }
 

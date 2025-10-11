@@ -99,23 +99,41 @@ export const ProjectList = _ =>
 		<hr />
 
 		<h3 id="datalogger-xxi-high-performance-data-logging-system-2025" class="projTitle">Datalogger-XXI: High-Performance Data Logging System (2025)</h3>
-		<ul class="projDesc">
-			<li>Designed a high-performance datalogger featuring a dual-core microcontroller (M7 and M4) for efficient parallel processing.</li>
-			<li>Integrated RAM and Flash memory for reliable local data storage.</li>
-			<li>Developed versatile sensor interfaces, including RS485, SDI-12, CAN, UART-TTL, USB, Ethernet, Events, MIPI-DSI, SPI-Display, and a high-speed extensible interface for board expansions.</li>
-			<li>Engineered a built-in solar charge controller, supporting multiple power options (solar, battery, and wall adapter) for field applications.</li>
-			<li>Implemented an integrated GSM modem with dual SIM support to ensure reliable cellular communication and data transmission.</li>
-			<li>Designed for edge computation, enabling real-time or user-defined interval-based sensor data logging and transmission.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a high-performance datalogger featuring a dual-core microcontroller (M7 and M4) for efficient parallel processing.</li>
+				<li>Integrated RAM and Flash memory for reliable local data storage.</li>
+				<li>Developed versatile sensor interfaces, including RS485, SDI-12, CAN, UART-TTL, USB, Ethernet, Events, MIPI-DSI, SPI-Display, and a high-speed extensible interface for board expansions.</li>
+				<li>Engineered a built-in solar charge controller, supporting multiple power options (solar, battery, and wall adapter) for field applications.</li>
+				<li>Implemented an integrated GSM modem with dual SIM support to ensure reliable cellular communication and data transmission.</li>
+				<li>Designed for edge computation, enabling real-time or user-defined interval-based sensor data logging and transmission.</li>
+			</ul>
+			<model-viewer
+				alt="some 3D model"
+				src="../public/model/NeilArmstrong.glb"
+				ar
+				camera-controls
+				touch-action="pan-y">
+			</model-viewer>
+		</div>
 
 		<h3 id="seismic-data-acquisition-system-2025" class="projTitle">Seismic Data Acquisition System (2025)</h3>
-		<ul class="projDesc">
-			<li>Designed a high-performance logic board for seismic monitoring, integrating a 24-bit high-speed, low-noise ADC to interface with a 3-axis geophone for precise data acquisition.</li>
-			<li>Incorporated a digital 3-axis accelerometer for additional motion sensing and cross-validation of seismic activity.</li>
-			<li>Implemented 8MB RAM buffering, capable of storing up to 3 hours of geophone data to ensure data retention during real-time communication failures.</li>
-			<li>Integrated SD card storage for offline data logging, ensuring continuous operation and long-term data archiving.</li>
-			<li>Enabled real-time seismic activity monitoring with robust data logging features, ensuring reliable operation even in adverse conditions.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a high-performance logic board for seismic monitoring, integrating a 24-bit high-speed, low-noise ADC to interface with a 3-axis geophone for precise data acquisition.</li>
+				<li>Incorporated a digital 3-axis accelerometer for additional motion sensing and cross-validation of seismic activity.</li>
+				<li>Implemented 8MB RAM buffering, capable of storing up to 3 hours of geophone data to ensure data retention during real-time communication failures.</li>
+				<li>Integrated SD card storage for offline data logging, ensuring continuous operation and long-term data archiving.</li>
+				<li>Enabled real-time seismic activity monitoring with robust data logging features, ensuring reliable operation even in adverse conditions.</li>
+			</ul>
+			<model-viewer
+				alt="some 3D model"
+				src="../public/model/CDCP2V3EG.glb"
+				ar
+				camera-controls
+				touch-action="pan-y">
+			</model-viewer>
+		</div>
 
 		<h3 id="precision-rtk-based-positioning-system-base-rover-2025" class="projTitle">Precision RTK-Based Positioning System (Base &amp; Rover, 2025)</h3>
 		<ul class="projDesc">

@@ -9,9 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.13",
+    "@google/model-viewer": "^4.1.0",
     "preact": "^10.27.2",
-    "tailwindcss": "^4.1.13"
+    "three": "^0.180.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.10.2",
