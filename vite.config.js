@@ -5,5 +5,4 @@ export default defineConfig({
 	plugins: [
 		preact(),
 	],
-	base: '/project/',
 })
