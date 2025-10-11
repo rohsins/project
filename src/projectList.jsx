@@ -110,7 +110,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="some 3D model"
-				src="../public/model/NeilArmstrong.glb"
+				src="model/NeilArmstrong.glb"
 				ar
 				camera-controls
 				touch-action="pan-y">
@@ -128,7 +128,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="some 3D model"
-				src="../public/model/CDCP2V3EG.glb"
+				src="model/CDCP2V3EG.glb"
 				ar
 				camera-controls
 				touch-action="pan-y">
