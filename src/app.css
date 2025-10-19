@@ -5,6 +5,7 @@ html {
 
 ul {
 	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 a {
@@ -25,10 +26,10 @@ model-viewer {
 	position: sticky;
 	top: 0rem;
 	z-index: 3;
-	font-size: 1.25rem;
+	font-size: 1rem;
 	font-weight: bold;
 	padding-top: 0.75rem;
-	padding-right: 2rem;
+	padding-right: 1.75rem;
 	text-align: end;
 }
 
@@ -36,7 +37,7 @@ model-viewer {
 	position: sticky;
 	top: 0rem;
 	z-index: 1;
-	font-size: 1.25rem;
+	font-size: 1rem;
 	font-weight: bold;
 	padding-top: 0.75rem;
 	text-align: center;
