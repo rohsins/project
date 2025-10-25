@@ -130,7 +130,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="Seismologger"
-				src="../model/Seismologger.glb"
+				src="model/Seismologger.glb"
 				ar
 				camera-controls
 				touch-action="pan-y">
@@ -152,7 +152,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="RTK"
-				src="../model/RTK.glb"
+				src="model/RTK.glb"
 				ar
 				camera-controls
 				touch-action="pan-y" />
@@ -169,7 +169,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="IMS4V2"
-				src="../model/IMS4V2.glb"
+				src="model/IMS4V2.glb"
 				ar
 				camera-controls
 				touch-action="pan-y"
@@ -187,7 +187,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="Communication Modem"
-				src="../model/LE910_V2.glb"
+				src="model/LE910_V2.glb"
 				ar
 				camera-controls
 				touch-action="pan-y"
@@ -205,7 +205,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="CDCP2V3"
-				src="../model/CDCP2V3.glb"
+				src="model/CDCP2V3.glb"
 				ar
 				camera-controls
 				touch-action="pan-y"
@@ -223,7 +223,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="TCV"
-				src="../model/Temperature Controlled Ventilation.glb"
+				src="model/Temperature Controlled Ventilation.glb"
 				ar
 				camera-controls
 				touch-action="pan-y"
@@ -272,7 +272,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="IMS-MODEM"
-				src="../model/IMS_MODEM_V1.glb"
+				src="model/IMS_MODEM_V1.glb"
 				ar
 				camera-controls
 				touch-action="pan-y"
@@ -357,7 +357,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="Radio sonde"
-				src="../model/RadioSonde.glb"
+				src="model/RadioSonde.glb"
 				ar
 				camera-controls
 				touch-action="pan-y"
@@ -389,7 +389,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="SDI-12 isolator"
-				src="../model/SDI_ISOLATOR_V1.glb"
+				src="model/SDI_ISOLATOR_V1.glb"
 				ar
 				camera-controls
 				touch-action="pan-y"
@@ -522,7 +522,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="RTDL-17"
-				src="../model/RTDL.glb"
+				src="model/RTDL.glb"
 				ar
 				camera-controls
 				touch-action="pan-y"
@@ -555,7 +555,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="TCM"
-				src="../model/TCM-XXI.glb"
+				src="model/TCM-XXI.glb"
 				ar
 				camera-controls
 				touch-action="pan-y"
@@ -651,7 +651,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="ATMS"
-				src="../model/ATMS.glb"
+				src="model/ATMS.glb"
 				ar
 				camera-controls
 				touch-action="pan-y"
@@ -731,7 +731,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="PSUTT"
-				src="../model/Power Supply for Tele-Terminal.glb"
+				src="model/Power Supply for Tele-Terminal.glb"
 				ar
 				camera-controls
 				touch-action="pan-y"
@@ -747,7 +747,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="MEB"
-				src="../model/Multipurpose Ethernet Board.glb"
+				src="model/Multipurpose Ethernet Board.glb"
 				ar
 				camera-controls
 				touch-action="pan-y"
@@ -763,7 +763,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="LWRTU"
-				src="../model/LWRTU.glb"
+				src="model/LWRTU.glb"
 				ar
 				camera-controls
 				touch-action="pan-y"
@@ -795,7 +795,7 @@ export const ProjectList = _ =>
 			</ul>
 			<model-viewer
 				alt="LSP"
-				src="../model/SurgeProtector.glb"
+				src="model/SurgeProtector.glb"
 				ar
 				camera-controls
 				touch-action="pan-y"
