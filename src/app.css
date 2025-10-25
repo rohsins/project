@@ -1,6 +1,6 @@
 html {
-  scroll-padding-top: 3.775rem;
-  scroll-behavior: smooth;
+	scroll-padding-top: 3rem;
+	scroll-behavior: smooth;
 }
 
 ul {
@@ -12,56 +12,66 @@ a {
 	color: lightgrey;
 }
 
-hr {
-	position:sticky;
-	top: 3.65rem;
-	z-index: 2;
-}
-
 model-viewer {
 	height: auto;
 }
 
 .title {
+	height: 3rem;
 	position: sticky;
 	top: 0rem;
 	z-index: 3;
-	font-size: 1rem;
+	/* font-size: 1rem; */
+	font-size: clamp(0.7rem, 2vw, 1rem);
 	font-weight: bold;
-	padding-top: 0.75rem;
-	padding-right: 1.75rem;
+	/* padding-top: 0.75rem; */
+	/* padding-right: 1.75rem; */
+	padding-right: 0.7rem;
 	text-align: end;
+	align-content: center;
 }
 
 .toc {
+	height: 3rem;
 	position: sticky;
 	top: 0rem;
-	z-index: 1;
-	font-size: 1rem;
+	z-index: 3;
+	/* font-size: 1rem; */
+	font-size: clamp(0.7rem, 2vw, 1rem);
 	font-weight: bold;
-	padding-top: 0.75rem;
 	text-align: center;
+	align-content: center;
 }
 
-li.deptTitle {
-	position: sticky;
-	top: 0;
-	font-size: 1.35rem;
-	font-weight: bold;
-	padding-top: 0.45rem;
-	padding-bottom: 0.75rem;
-	background: #242424;
+ul.deptTitleLink {
+	font-size: clamp(0.9rem, 2vw, 1rem);
+	padding-left: 1.2rem;
 }
 
-h2.deptTitle {
+.deptTitle {
+	height: 3rem;
 	position: sticky;
 	top: 0;
 	z-index: 2;
-	font-size: 1.65rem;
-	padding-left: 2rem;
-	padding-top: 0.6rem;
-	padding-bottom: 0.6rem;
 	background: #242424;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+li.deptTitle {
+	/* font-size: 1.35rem; */
+	/* font-size: clamp(1rem, 1.35vw, 1.35rem); */
+	font-size: clamp(1rem, 3vw, 1.35rem);
+	font-weight: bold;
+	justify-content: center;
+}
+
+h2.deptTitle {
+	/* font-size: 1.65rem; */
+	font-size: clamp(1.35rem, 3vw, 1.65rem);
+	padding-left: 2rem;
+	justify-content: center;
 }
 
 /*.projTitle {
@@ -70,19 +80,24 @@ h2.deptTitle {
 }*/
 
 h3.projTitle {
+	height: 3rem;
 	position: sticky;
 	/*top: 3.65rem;*/
-	top: 3.775rem; /* 3.65 + 0.125 (height of <hr /> tag) */
+	/* top: 3.775rem; */ /* 3.65 + 0.125 (height of <hr /> tag) */
+	/* top: clamp(3.1rem, 1.25rem + 3.6vw, 3.57rem); */
+	top: 3rem;
 	z-index: 2;
-	font-size: 1.25rem;
+	/* font-size: 1.25rem; */
+	font-size: clamp(1rem, 2vw, 1.25rem);
 	padding-left: 1rem;
-	padding-top: 0.3rem;
-	padding-bottom: 0.3rem;
 	background: #343434;
+	text-align: start;
+	align-content: center;
 }
 
 .projDesc {
-	font-size: 1rem;
+	/* font-size: 1rem; */
+	font-size: clamp(0.9rem, 2vw, 1rem);
 	font-weight: normal;
 	padding-left: 3rem;
 	padding-top: 0.25rem;
@@ -92,5 +107,6 @@ h3.projTitle {
 .projDescContainer {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 }
 

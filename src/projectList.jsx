@@ -3,8 +3,8 @@ export const ProjectList = _ =>
 		<div class="title">Projects</div>
 		<ul>
 			<div class="toc">Table of Contents</div>
-			<li class="deptTitle"><a href="#hardware" class="deptTitle">Hardware</a></li>
-			<ul>
+			<li class="deptTitle"><a href="#hardware">Hardware</a></li>
+			<ul class="deptTitleLink">
 				<li><a href="#datalogger-xxi-high-performance-data-logging-system-2025">Datalogger-XXI: High-Performance Data Logging System (2025)</a></li>
 				<li><a href="#seismic-data-acquisition-system-2025">Seismic Data Acquisition System (2025)</a></li>
 				<li><a href="#precision-rtk-based-positioning-system-base--rover-2025">Precision RTK-Based Positioning System (Base &amp; Rover, 2025)</a></li>
@@ -49,11 +49,11 @@ export const ProjectList = _ =>
 				<li><a href="#lightning-and-surge-arrester-module-2015">Lightning and Surge Arrester Module (2015)</a></li>
 				<li><a href="#reflow-oven-controller-board-2015">Reflow Oven Controller Board (2015)</a></li>
 				<li><a href="#university-major-project-brain-control-system-2014">University Major Project (Brain Control System, 2014)</a></li>
-				<li className="li"><a href="#university-minor-project-smart-wheelchair-2013">University Minor Project (Smart Wheelchair, 2013)</a></li>
+				<li><a href="#university-minor-project-smart-wheelchair-2013">University Minor Project (Smart Wheelchair, 2013)</a></li>
 			</ul>
 
-			<li class="deptTitle"><a href="#firmware" class="deptTitle">Firmware</a></li>
-			<ul>
+			<li class="deptTitle"><a href="#firmware">Firmware</a></li>
+			<ul class="deptTitleLink">
 				<li><a href="#test-firmware-for-low-power-sensor-nodes-2025">Test Firmware for Low power Sensor nodes (2025)</a></li>
 				<li><a href="#cdcp-test-firmware-2019-2024---upgrade">CDCP Test Firmware (2019; 2024 - upgrade)</a></li>
 				<li><a href="#rtk-integration-with-adcp-2023-2024">RTK Integration with ADCP (2023-2024)</a></li>
@@ -69,8 +69,8 @@ export const ProjectList = _ =>
 				<li><a href="#wireless-calling-system-2017">Wireless Calling System (2017)</a></li>
 			</ul>
 
-			<li class="deptTitle"><a href="#software" class="deptTitle">Software</a></li>
-			<ul>
+			<li class="deptTitle"><a href="#software">Software</a></li>
+			<ul class="deptTitleLink">
 				<li><a href="#implementation-of-ntrip-server-2023">Implementation of NTRIP server (2023)</a></li>
 				<li><a href="#datalink-server-2023">Datalink Server (2023)</a></li>
 				<li><a href="#chrome-extension-for-ims-2023">Chrome Extension for IMS (2023)</a></li>
@@ -95,8 +95,10 @@ export const ProjectList = _ =>
 			<br />
 		</ul>
 
-		<h2 id="hardware" class="deptTitle">Hardware</h2>
-		<hr />
+		<div class="deptTitle">
+			<h2 id="hardware" class="deptTitle">Hardware</h2>
+			<hr />
+		</div>
 
 		<h3 id="datalogger-xxi-high-performance-data-logging-system-2025" class="projTitle">Datalogger-XXI: High-Performance Data Logging System (2025)</h3>
 		<div class="projDescContainer">
@@ -109,8 +111,8 @@ export const ProjectList = _ =>
 				<li>Designed for edge computation, enabling real-time or user-defined interval-based sensor data logging and transmission.</li>
 			</ul>
 			<model-viewer
-				alt="some 3D model"
-				src="model/NeilArmstrong.glb"
+				alt=""
+				src=""
 				ar
 				camera-controls
 				touch-action="pan-y">
@@ -127,8 +129,8 @@ export const ProjectList = _ =>
 				<li>Enabled real-time seismic activity monitoring with robust data logging features, ensuring reliable operation even in adverse conditions.</li>
 			</ul>
 			<model-viewer
-				alt="some 3D model"
-				src="model/CDCP2V3EG.glb"
+				alt="Seismologger"
+				src="../model/Seismologger.glb"
 				ar
 				camera-controls
 				touch-action="pan-y">
@@ -136,317 +138,685 @@ export const ProjectList = _ =>
 		</div>
 
 		<h3 id="precision-rtk-based-positioning-system-base-rover-2025" class="projTitle">Precision RTK-Based Positioning System (Base &amp; Rover, 2025)</h3>
-		<ul class="projDesc">
-			<li>Developed a PCB integrating RTK modules for centimeter-to-millimeter accuracy in location tracking.</li>
-			<li>Designed Base and Rover versions:</li>
-			<ul>
-				<li>Base Station generates and transmits correction data to the NTRIP server.</li>
-				<li>Rover down-streams correction data from the NTRIP server and processes for enhanced positional accuracy.</li>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Developed a PCB integrating RTK modules for centimeter-to-millimeter accuracy in location tracking.</li>
+				<li>Designed Base and Rover versions:</li>
+				<ul>
+					<li>Base Station generates and transmits correction data to the NTRIP server.</li>
+					<li>Rover down-streams correction data from the NTRIP server and processes for enhanced positional accuracy.</li>
+				</ul>
+				<li>Integrated LCD display, IMU (Inertial Measurement Unit), GSM Modem, LoRa Modem, Wi-Fi, and BLE for real-time monitoring and communication.</li>
+				<li>Implemented a built-in solar charge controller with battery management, ensuring reliable off-grid operation.</li>
+				<li>Enabled high-precision attitude estimation alongside location data for advanced positioning applications.</li>
 			</ul>
-			<li>Integrated LCD display, IMU (Inertial Measurement Unit), GSM Modem, LoRa Modem, Wi-Fi, and BLE for real-time monitoring and communication.</li>
-			<li>Implemented a built-in solar charge controller with battery management, ensuring reliable off-grid operation.</li>
-			<li>Enabled high-precision attitude estimation alongside location data for advanced positioning applications.</li>
-		</ul>
+			<model-viewer
+				alt="RTK"
+				src="../model/RTK.glb"
+				ar
+				camera-controls
+				touch-action="pan-y" />
+		</div>
 
 		<h3 id="infrastructure-monitoring-system-ims-2024" class="projTitle">Infrastructure Monitoring System (IMS, 2024)</h3>
-		<ul class="projDesc">
-			<li>Designed an updated, compact PCB with Wi-Fi, BLE, Thread, and Zigbee for seamless wireless communication.</li>
-			<li>Integrated multiple industrial interfaces: USB, RS485, SDI-12, CAN, RS232, and GPIOs with alternative functions for versatile sensor connectivity.</li>
-			<li>Developed a single logic board compatible with various sensors, including smoke, door, spill, motion sensors, UPS monitoring, and AC meter reading.</li>
-			<li>Incorporated a built-in battery charger for uninterrupted operation and power management.</li>
-			<li>Enhanced system reliability and scalability for real-time infrastructure monitoring across diverse environments.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed an updated, compact PCB with Wi-Fi, BLE, Thread, and Zigbee for seamless wireless communication.</li>
+				<li>Integrated multiple industrial interfaces: USB, RS485, SDI-12, CAN, RS232, and GPIOs with alternative functions for versatile sensor connectivity.</li>
+				<li>Developed a single logic board compatible with various sensors, including smoke, door, spill, motion sensors, UPS monitoring, and AC meter reading.</li>
+				<li>Incorporated a built-in battery charger for uninterrupted operation and power management.</li>
+				<li>Enhanced system reliability and scalability for real-time infrastructure monitoring across diverse environments.</li>
+			</ul>
+			<model-viewer
+				alt="IMS4V2"
+				src="../model/IMS4V2.glb"
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="communication-modem-with-ethernet-le910v2-2024" class="projTitle">Communication Modem with Ethernet (LE910V2, 2024)</h3>
-		<ul class="projDesc">
-			<li>Designed a high-speed communication modem integrating Gigabit Ethernet, USB, RS232, and a GSM Modem with dual SIM support for enhanced connectivity and redundancy.</li>
-			<li>Designed hardware with industrial-grade components for extreme environments (-40°C to 85°C).</li>
-			<li>Developed a versatile logic board enabling devices to connect to the internet via multiple interfaces.</li>
-			<li>Ensured reliable network access for industrial and remote applications, supporting seamless data transmission across various communication channels.</li>
-			<li>Optimized for robust performance, providing stable and flexible networking solutions.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a high-speed communication modem integrating Gigabit Ethernet, USB, RS232, and a GSM Modem with dual SIM support for enhanced connectivity and redundancy.</li>
+				<li>Designed hardware with industrial-grade components for extreme environments (-40°C to 85°C).</li>
+				<li>Developed a versatile logic board enabling devices to connect to the internet via multiple interfaces.</li>
+				<li>Ensured reliable network access for industrial and remote applications, supporting seamless data transmission across various communication channels.</li>
+				<li>Optimized for robust performance, providing stable and flexible networking solutions.</li>
+			</ul>
+			<model-viewer
+				alt="Communication Modem"
+				src="../model/LE910_V2.glb"
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="compact-data-collection-platform-v3-2024" class="projTitle">Compact Data Collection Platform V3 (2024)</h3>
-		<ul class="projDesc">
-			<li>Developed a compact data logger PCB with a built-in solar charge controller for flexible power options (solar, battery, or wall adapter).</li>
-			<li>Integrated GSM modem with dual SIM support for reliable cellular communication and data transmission.</li>
-			<li>Included flash memory for local data storage and interfaces for versatile sensor integration: RS485, SDI-12, TTL, USB, Events, and I2C.</li>
-			<li>Designed to log and transmit data from various sensors at user-defined intervals or in real-time, ensuring robust data collection and communication.</li>
-			<li>Optimized for energy-efficient operation with support for both remote and stationary deployment scenarios.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Developed a compact data logger PCB with a built-in solar charge controller for flexible power options (solar, battery, or wall adapter).</li>
+				<li>Integrated GSM modem with dual SIM support for reliable cellular communication and data transmission.</li>
+				<li>Included flash memory for local data storage and interfaces for versatile sensor integration: RS485, SDI-12, TTL, USB, Events, and I2C.</li>
+				<li>Designed to log and transmit data from various sensors at user-defined intervals or in real-time, ensuring robust data collection and communication.</li>
+				<li>Optimized for energy-efficient operation with support for both remote and stationary deployment scenarios.</li>
+			</ul>
+			<model-viewer
+				alt="CDCP2V3"
+				src="../model/CDCP2V3.glb"
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="temperature-controlled-ventilation-2024" class="projTitle">Temperature controlled ventilation (2024)</h3>
-		<ul class="projDesc">
-			<li>Designed a PCB for controlling AC appliances with integrated Wi-Fi, BLE, Thread, and Zigbee for wireless communication and remote control.</li>
-			<li>Included a built-in 110-220 AC to 5V DC converter for powering the device, ensuring efficient energy management.</li>
-			<li>Equipped with 1 AC input and 2 controlled AC outputs, capable of handling up to 3200 Watts of load.</li>
-			<li>Implemented Triac firing angle control to regulate the amplitude of AC outputs, providing precise and smooth control of connected appliances.</li>
-			<li>Optimized for high-power applications, offering versatile control and remote management of AC devices.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a PCB for controlling AC appliances with integrated Wi-Fi, BLE, Thread, and Zigbee for wireless communication and remote control.</li>
+				<li>Included a built-in 110-220 AC to 5V DC converter for powering the device, ensuring efficient energy management.</li>
+				<li>Equipped with 1 AC input and 2 controlled AC outputs, capable of handling up to 3200 Watts of load.</li>
+				<li>Implemented Triac firing angle control to regulate the amplitude of AC outputs, providing precise and smooth control of connected appliances.</li>
+				<li>Optimized for high-power applications, offering versatile control and remote management of AC devices.</li>
+			</ul>
+			<model-viewer
+				alt="TCV"
+				src="../model/Temperature Controlled Ventilation.glb"
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="battery-monitoring-and-logging-pcb-2024" class="projTitle">Battery Monitoring and Logging PCB (2024)</h3>
-		<ul class="projDesc">
-			<li>Designed a small form factor PCB to fit within a battery pack for real-time monitoring and logging of critical battery parameters.</li>
-			<li>Integrated sensors to track state of charge (SOC), depth of discharge (DOD), current, and voltage for accurate battery health assessment.</li>
-			<li>Optimized for compact integration, providing a seamless solution for battery management in various applications.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a small form factor PCB to fit within a battery pack for real-time monitoring and logging of critical battery parameters.</li>
+				<li>Integrated sensors to track state of charge (SOC), depth of discharge (DOD), current, and voltage for accurate battery health assessment.</li>
+				<li>Optimized for compact integration, providing a seamless solution for battery management in various applications.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="lora-communication-daughter-board-for-cdcp-2024" class="projTitle">LoRa Communication Daughter Board for CDCP (2024)</h3>
-		<ul class="projDesc">
-			<li>Developed a daughter board for the CDCP logic board, utilizing the LoRa LR1121 chipset for long-range, low-power communication.</li>
-			<li>Enabled LoRa point-to-point and LoRaWAN communication across a wide frequency range: 150 MHz to 960 MHz, 2.4 GHz, 2.1 GHz.</li>
-			<li>Designed to optimize battery life by providing efficient, long-range communication capabilities for IoT and remote sensing applications.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Developed a daughter board for the CDCP logic board, utilizing the LoRa LR1121 chipset for long-range, low-power communication.</li>
+				<li>Enabled LoRa point-to-point and LoRaWAN communication across a wide frequency range: 150 MHz to 960 MHz, 2.4 GHz, 2.1 GHz.</li>
+				<li>Designed to optimize battery life by providing efficient, long-range communication capabilities for IoT and remote sensing applications.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="g-modem-for-ims-2024" class="projTitle">4G Modem for IMS (2024)</h3>
-		<ul class="projDesc">
-			<li>Developed a snap-on PCB for the IMS board, enabling GSM communication with 4G modem and dual SIM support.</li>
-			<li>Integrated a logic level translator for seamless communication and compatibility with various power sources.</li>
-			<li>Included USB, Full UART, and power control pins for versatile connectivity and management.</li>
-			<li>Optimized for compact design and reliable cellular communication in infrastructure monitoring applications.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Developed a snap-on PCB for the IMS board, enabling GSM communication with 4G modem and dual SIM support.</li>
+				<li>Integrated a logic level translator for seamless communication and compatibility with various power sources.</li>
+				<li>Included USB, Full UART, and power control pins for versatile connectivity and management.</li>
+				<li>Optimized for compact design and reliable cellular communication in infrastructure monitoring applications.</li>
+			</ul>
+			<model-viewer
+				alt="IMS-MODEM"
+				src="../model/IMS_MODEM_V1.glb"
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="ims-front-panels-2024" class="projTitle">IMS Front Panels (2024)</h3>
-		<ul class="projDesc">
-			<li>Developed a snap-on PCB for the IMS board, extending available interfaces to include RS485, SDI-12, CAN, RS232, UART-TTL, and GPIOs.</li>
-			<li>Enabled flexible sensor and device integration for enhanced functionality in infrastructure monitoring applications.</li>
-			<li>Designed for modular expansion and seamless interface connectivity, supporting a wide range of industrial communication protocols.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Developed a snap-on PCB for the IMS board, extending available interfaces to include RS485, SDI-12, CAN, RS232, UART-TTL, and GPIOs.</li>
+				<li>Enabled flexible sensor and device integration for enhanced functionality in infrastructure monitoring applications.</li>
+				<li>Designed for modular expansion and seamless interface connectivity, supporting a wide range of industrial communication protocols.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="satellite-communication-modem-2024" class="projTitle">Satellite Communication Modem (2024)</h3>
-		<ul class="projDesc">
-			<li>Integrated an Orbcomm satellite communication modem by Quectel or U-blox for reliable, low-cost satellite communication.</li>
-			<li>Supports battery-powered or DC input for flexible power options.</li>
-			<li>Includes UART-TTL and RS232 interfaces for seamless integration with remote devices and sensors.</li>
-			<li>Designed for remote communication, enabling critical data transfer in areas without terrestrial network infrastructure.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Integrated an Orbcomm satellite communication modem by Quectel or U-blox for reliable, low-cost satellite communication.</li>
+				<li>Supports battery-powered or DC input for flexible power options.</li>
+				<li>Includes UART-TTL and RS232 interfaces for seamless integration with remote devices and sensors.</li>
+				<li>Designed for remote communication, enabling critical data transfer in areas without terrestrial network infrastructure.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="satellite-communication-daughter-board-for-cdcp-2024" class="projTitle">Satellite Communication Daughter Board for CDCP (2024)</h3>
-		<ul class="projDesc">
-			<li>Developed a daughter board for the CDCP board, integrating an Orbcomm satellite modem for reliable satellite communication.</li>
-			<li>Included a boost regulator to ensure stable power delivery and efficient voltage conversion.</li>
-			<li>Enabled communication through a UART interface for seamless data transfer.</li>
-			<li>Designed with power control circuitry for optimal energy management and performance in remote applications.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Developed a daughter board for the CDCP board, integrating an Orbcomm satellite modem for reliable satellite communication.</li>
+				<li>Included a boost regulator to ensure stable power delivery and efficient voltage conversion.</li>
+				<li>Enabled communication through a UART interface for seamless data transfer.</li>
+				<li>Designed with power control circuitry for optimal energy management and performance in remote applications.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="signal-amplifier-and-conditioning-circuit-2024" class="projTitle">Signal Amplifier and Conditioning Circuit (2024)</h3>
-		<ul class="projDesc">
-			<li>Designed a signal amplifier to enhance and condition the received signal for optimal input to the decoder circuitry.</li>
-			<li>Ensured signal integrity by minimizing noise and distortion, enabling accurate and reliable decoding in communication systems.</li>
-			<li>Optimized for efficient signal processing, supporting high-performance data transmission in various applications.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a signal amplifier to enhance and condition the received signal for optimal input to the decoder circuitry.</li>
+				<li>Ensured signal integrity by minimizing noise and distortion, enabling accurate and reliable decoding in communication systems.</li>
+				<li>Optimized for efficient signal processing, supporting high-performance data transmission in various applications.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="radio-sonde-2023" class="projTitle">Radio Sonde (2023)</h3>
-		<ul class="projDesc">
-			<li>Designed a small form factor PCB for atmospheric data measurement, collecting temperature, humidity, and pressure across different layers of the atmosphere.</li>
-			<li>Integrated a GPS module for accurate geolocation, ensuring proper data pinning for analysis and processing.</li>
-			<li>Integrated an analog processor to derive environmental data from resistive and capacitive sensors for precise readings of temperature, humidity, and pressure.</li>
-			<li>Utilized LoRa radio communication with a frequency tuned around 500 MHz for reliable long-range data transmission.</li>
-			<li>Powered by a small battery attached to a balloon, enabling atmospheric data collection through various layers of the atmosphere.</li>
-			<li>Incorporated a dual-core MCU for enhanced reliability and processing performance in a compact, low-power design.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a small form factor PCB for atmospheric data measurement, collecting temperature, humidity, and pressure across different layers of the atmosphere.</li>
+				<li>Integrated a GPS module for accurate geolocation, ensuring proper data pinning for analysis and processing.</li>
+				<li>Integrated an analog processor to derive environmental data from resistive and capacitive sensors for precise readings of temperature, humidity, and pressure.</li>
+				<li>Utilized LoRa radio communication with a frequency tuned around 500 MHz for reliable long-range data transmission.</li>
+				<li>Powered by a small battery attached to a balloon, enabling atmospheric data collection through various layers of the atmosphere.</li>
+				<li>Incorporated a dual-core MCU for enhanced reliability and processing performance in a compact, low-power design.</li>
+			</ul>
+			<model-viewer
+				alt="Radio sonde"
+				src="../model/RadioSonde.glb"
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="smart-farming-iot-2022" class="projTitle">Smart Farming IoT (2022)</h3>
-		<ul class="projDesc">
-			<li>Designed a set of battery-powered node devices with wireless connectivity, incorporating LoRa/LoRaWAN for efficient long-range communication in smart farming applications.</li>
-			<li>Integrated actuators and sensors for real-time monitoring and control of environmental factors, enhancing farming efficiency.</li>
-			<li>Focused on creating low-power, scalable hardware solutions, enabling data-driven decision-making and automation in agriculture.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a set of battery-powered node devices with wireless connectivity, incorporating LoRa/LoRaWAN for efficient long-range communication in smart farming applications.</li>
+				<li>Integrated actuators and sensors for real-time monitoring and control of environmental factors, enhancing farming efficiency.</li>
+				<li>Focused on creating low-power, scalable hardware solutions, enabling data-driven decision-making and automation in agriculture.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="sdi-12-isolator-2022" class="projTitle">SDI-12 Isolator (2022)</h3>
-		<ul class="projDesc">
-			<li>Designed a device that isolates both the power and SDI-12 data lines, ensuring safe and reliable communication between sensors and systems.</li>
-			<li>The device defaults to receive mode, automatically switching to transmit mode upon detecting a data write.</li>
-			<li>Focused on enhancing data integrity and protection in SDI-12 communication systems for environmental monitoring and other applications.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a device that isolates both the power and SDI-12 data lines, ensuring safe and reliable communication between sensors and systems.</li>
+				<li>The device defaults to receive mode, automatically switching to transmit mode upon detecting a data write.</li>
+				<li>Focused on enhancing data integrity and protection in SDI-12 communication systems for environmental monitoring and other applications.</li>
+			</ul>
+			<model-viewer
+				alt="SDI-12 isolator"
+				src="../model/SDI_ISOLATOR_V1.glb"
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="landslide-monitor-using-rtk-gps-2021-2022" class="projTitle">Landslide Monitor using RTK GPS (2021 – 2022)</h3>
-		<ul class="projDesc">
-			<li>Designed and developed a real-time monitoring system for detecting land movement with centimeter-level precision using RTK GNSS.</li>
-			<li>Integrated high-accuracy GNSS modules with data logging and wireless communication for remote monitoring.</li>
-			<li>Implemented GNSS data acquisition, filtering, and terrain profiling algorithms to analyze movement patterns.</li>
-			<li>Enabled early detection of potential landslides through continuous position tracking and trend analysis</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed and developed a real-time monitoring system for detecting land movement with centimeter-level precision using RTK GNSS.</li>
+				<li>Integrated high-accuracy GNSS modules with data logging and wireless communication for remote monitoring.</li>
+				<li>Implemented GNSS data acquisition, filtering, and terrain profiling algorithms to analyze movement patterns.</li>
+				<li>Enabled early detection of potential landslides through continuous position tracking and trend analysis</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="battery-management-system-for-lyp-battery-2022" class="projTitle">Battery Management System for LYP Battery (2022)</h3>
-		<ul class="projDesc">
-			<li>Designed a battery management system (BMS) for Lithium Iron Yttrium Phosphate (LiFeYPO4) battery chemistry.</li>
-			<li>Monitored individual cells for voltage, temperature, and health to ensure optimal performance and safety.</li>
-			<li>Controlled charging and discharging of the battery pack, providing efficient power management and protecting against overcharge, over-discharge, and thermal issues.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a battery management system (BMS) for Lithium Iron Yttrium Phosphate (LiFeYPO4) battery chemistry.</li>
+				<li>Monitored individual cells for voltage, temperature, and health to ensure optimal performance and safety.</li>
+				<li>Controlled charging and discharging of the battery pack, providing efficient power management and protecting against overcharge, over-discharge, and thermal issues.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="upgrade-compact-data-collection-platform-v2-2021" class="projTitle">Upgrade Compact Data Collection Platform V2 (2021)</h3>
-		<ul class="projDesc">
-			<li>Enhanced boost power for improved efficiency and performance across various applications.</li>
-			<li>Implemented fast charging capabilities, reducing charging times while maintaining battery health and safety.</li>
-			<li>Improved Electromagnetic Interference (EMI) shielding for more stable and reliable operation in noisy environments.</li>
-			<li>Upgraded heat dissipation mechanisms for better thermal management, ensuring optimal performance under high loads.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Enhanced boost power for improved efficiency and performance across various applications.</li>
+				<li>Implemented fast charging capabilities, reducing charging times while maintaining battery health and safety.</li>
+				<li>Improved Electromagnetic Interference (EMI) shielding for more stable and reliable operation in noisy environments.</li>
+				<li>Upgraded heat dissipation mechanisms for better thermal management, ensuring optimal performance under high loads.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="adc-expansion-board-for-cdcp-2020" class="projTitle">ADC Expansion Board for CDCP (2020)</h3>
-		<ul class="projDesc">
-			<li>Designed an expansion board for the CDCP, integrating a high-precision ADC for accurate data acquisition.</li>
-			<li>Incorporated a display for real-time data visualization, enabling easy monitoring and control.</li>
-			<li>Enhanced the overall functionality of the CDCP with precise measurements and user-friendly interface.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed an expansion board for the CDCP, integrating a high-precision ADC for accurate data acquisition.</li>
+				<li>Incorporated a display for real-time data visualization, enabling easy monitoring and control.</li>
+				<li>Enhanced the overall functionality of the CDCP with precise measurements and user-friendly interface.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="capacitive-touch-keypad-for-queue-management-system-2020" class="projTitle">Capacitive Touch Keypad for Queue Management System (2020)</h3>
-		<ul class="projDesc">
-			<li>Designed a capacitive touch keypad for use in a Queue Management System, enabling touch-sensitive, responsive input.</li>
-			<li>Focused on user-friendly interaction and low-power consumption, enhancing the overall efficiency and reliability of the system.</li>
-			<li>Integrated with the Queue Management System for seamless data entry and control.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a capacitive touch keypad for use in a Queue Management System, enabling touch-sensitive, responsive input.</li>
+				<li>Focused on user-friendly interaction and low-power consumption, enhancing the overall efficiency and reliability of the system.</li>
+				<li>Integrated with the Queue Management System for seamless data entry and control.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="automatic-meter-reading-2018" class="projTitle">Automatic Meter Reading (2018)</h3>
-		<ul class="projDesc">
-			<li>Designed a device that monitors energy meters and automatically posts data to a central server for real-time tracking and analysis.</li>
-			<li>Enabled remote monitoring of energy consumption, streamlining data collection and improving operational efficiency.</li>
-			<li>Focused on reliable data transmission and energy-efficient design for long-term deployment.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a device that monitors energy meters and automatically posts data to a central server for real-time tracking and analysis.</li>
+				<li>Enabled remote monitoring of energy consumption, streamlining data collection and improving operational efficiency.</li>
+				<li>Focused on reliable data transmission and energy-efficient design for long-term deployment.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="door-access-controller-2017" class="projTitle">Door Access Controller (2017)</h3>
-		<ul class="projDesc">
-			<li>Developed a controller board for door access systems, supporting interfaces including I2C, Wiegand, and SPI for RFID integration.</li>
-			<li>Implemented open drain and relay outputs for door lock control, ensuring reliable access management.</li>
-			<li>Integrated UART communication for seamless connectivity with Wi-Fi and modem modules, enabling remote access and monitoring capabilities.</li>
-			<li>Focused on creating a versatile and secure access control solution with easy integration into diverse environments.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Developed a controller board for door access systems, supporting interfaces including I2C, Wiegand, and SPI for RFID integration.</li>
+				<li>Implemented open drain and relay outputs for door lock control, ensuring reliable access management.</li>
+				<li>Integrated UART communication for seamless connectivity with Wi-Fi and modem modules, enabling remote access and monitoring capabilities.</li>
+				<li>Focused on creating a versatile and secure access control solution with easy integration into diverse environments.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="rtdl-datalogger-2017" class="projTitle">RTDL Datalogger (2017)</h3>
-		<ul class="projDesc">
-			<li>Designed a full-fledged data logger with a high-precision 32-bit ADC for accurate data collection.</li>
-			<li>Integrated multiple communication interfaces, including SDI-12, RS485, RS232, Events, Open Drain Output Control, TTL, Ethernet, USB, I2C, and Pulse Input for versatile sensor integration.</li>
-			<li>Incorporated a display and buttons for real-time monitoring and easy device configuration.</li>
-			<li>Engineered to support a wide input voltage range (7-36V), ensuring reliable operation in diverse power environments.</li>
-			<li>Focused on creating a robust and flexible solution for data logging and remote monitoring across various industrial applications.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a full-fledged data logger with a high-precision 32-bit ADC for accurate data collection.</li>
+				<li>Integrated multiple communication interfaces, including SDI-12, RS485, RS232, Events, Open Drain Output Control, TTL, Ethernet, USB, I2C, and Pulse Input for versatile sensor integration.</li>
+				<li>Incorporated a display and buttons for real-time monitoring and easy device configuration.</li>
+				<li>Engineered to support a wide input voltage range (7-36V), ensuring reliable operation in diverse power environments.</li>
+				<li>Focused on creating a robust and flexible solution for data logging and remote monitoring across various industrial applications.</li>
+			</ul>
+			<model-viewer
+				alt="RTDL-17"
+				src="../model/RTDL.glb"
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="infrastructure-monitoring-system-2017" class="projTitle">Infrastructure Monitoring System (2017)</h3>
-		<ul class="projDesc">
-			<li>Designed an embedded device that interfaces with various sensors, including a photoelectric smoke sensor, PIR-based motion sensor, contact-based water spill sensor, and reed-based door sensor for real-time monitoring.</li>
-			<li>Developed the system to alert users in case of alarm triggers, enhancing safety and security.</li>
-			<li>Integrated multiple communication options, such as Wi-Fi, BLE, Zigbee, LoRa, and Cellular gateway, for seamless internet connectivity and remote monitoring.</li>
-			<li>Focused on creating a scalable and reliable solution for infrastructure monitoring in diverse environments.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed an embedded device that interfaces with various sensors, including a photoelectric smoke sensor, PIR-based motion sensor, contact-based water spill sensor, and reed-based door sensor for real-time monitoring.</li>
+				<li>Developed the system to alert users in case of alarm triggers, enhancing safety and security.</li>
+				<li>Integrated multiple communication options, such as Wi-Fi, BLE, Zigbee, LoRa, and Cellular gateway, for seamless internet connectivity and remote monitoring.</li>
+				<li>Focused on creating a scalable and reliable solution for infrastructure monitoring in diverse environments.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="communication-module-2017" class="projTitle">Communication Module (2017)</h3>
-		<ul class="projDesc">
-			<li>Designed an embedded communication device for reliable internet connectivity via cellular (GSM and CDMA) and satellite (Iridium) modems.</li>
-			<li>Integrated three modems to provide flexible, redundant connectivity options for remote and urban environments.</li>
-			<li>Focused on creating a robust and versatile solution for communication in areas with varying network availability, ensuring seamless data transfer.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed an embedded communication device for reliable internet connectivity via cellular (GSM and CDMA) and satellite (Iridium) modems.</li>
+				<li>Integrated three modems to provide flexible, redundant connectivity options for remote and urban environments.</li>
+				<li>Focused on creating a robust and versatile solution for communication in areas with varying network availability, ensuring seamless data transfer.</li>
+			</ul>
+			<model-viewer
+				alt="TCM"
+				src="../model/TCM-XXI.glb"
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="compact-data-collection-platform-cdcp-2016" class="projTitle">Compact Data Collection Platform (CDCP, 2016)</h3>
-		<ul class="projDesc">
-			<li>Designed a credit card-sized data logger and communication module with versatile interfaces, including ADC, SDI-12, RS485, I2C, Events, and USB (UFP and DFP).</li>
-			<li>Integrated a multi-chemistry battery charger with MPPT (Maximum Power Point Tracking) for efficient energy management and longer battery life.</li>
-			<li>Focused on creating a compact, all-in-one solution for data collection and communication in remote and field applications.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a credit card-sized data logger and communication module with versatile interfaces, including ADC, SDI-12, RS485, I2C, Events, and USB (UFP and DFP).</li>
+				<li>Integrated a multi-chemistry battery charger with MPPT (Maximum Power Point Tracking) for efficient energy management and longer battery life.</li>
+				<li>Focused on creating a compact, all-in-one solution for data collection and communication in remote and field applications.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="audio-remote-terminal-unit-artu-2016" class="projTitle">Audio Remote Terminal Unit (ARTU, 2016)</h3>
-		<ul class="projDesc">
-			<li>Designed an embedded device for disseminating alerts via audio, ensuring effective communication in emergency situations.</li>
-			<li>Integrated an audio codec for high-quality sound output and a GSM/CDMA modem for reliable 3G internet connectivity.</li>
-			<li>Focused on creating a robust and efficient solution for remote alert systems with seamless connectivity and clear audio delivery.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed an embedded device for disseminating alerts via audio, ensuring effective communication in emergency situations.</li>
+				<li>Integrated an audio codec for high-quality sound output and a GSM/CDMA modem for reliable 3G internet connectivity.</li>
+				<li>Focused on creating a robust and efficient solution for remote alert systems with seamless connectivity and clear audio delivery.</li>
+			</ul>
+			<model-viewer
+				alt="ARTU-16"
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="power-monitor-for-embedded-system-2016" class="projTitle">Power monitor for Embedded System (2016)</h3>
-		<ul class="projDesc">
-			<li>Designed a device to measure the power consumed by embedded systems, providing accurate and real-time power usage data.</li>
-			<li>Integrated features for monitoring power efficiency, helping to optimize embedded device performance and energy management.</li>
-			<li>Focused on delivering a cost-effective solution for analyzing and managing power consumption in embedded applications.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a device to measure the power consumed by embedded systems, providing accurate and real-time power usage data.</li>
+				<li>Integrated features for monitoring power efficiency, helping to optimize embedded device performance and energy management.</li>
+				<li>Focused on delivering a cost-effective solution for analyzing and managing power consumption in embedded applications.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="power-and-signal-interface-unit-2016" class="projTitle">Power and Signal Interface Unit (2016)</h3>
-		<ul class="projDesc">
-			<li>Designed a device to translate data from Ethernet interface (IP protocol) to RS485 using a custom protocol.</li>
-			<li>Integrated this unit for use in Queue Management Systems, enabling seamless communication between different protocols.</li>
-			<li>Focused on creating a reliable and efficient solution to bridge communication gaps in industrial systems, ensuring smooth data transfer.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a device to translate data from Ethernet interface (IP protocol) to RS485 using a custom protocol.</li>
+				<li>Integrated this unit for use in Queue Management Systems, enabling seamless communication between different protocols.</li>
+				<li>Focused on creating a reliable and efficient solution to bridge communication gaps in industrial systems, ensuring smooth data transfer.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="extension-board-for-odroid-c2-2016" class="projTitle">Extension Board for Odroid-C2 (2016)</h3>
-		<ul class="projDesc">
-			<li>Designed an extension board for the Odroid-C2, expanding its interfaces to include DAC, ADC, and RS232 for enhanced functionality.</li>
-			<li>Enabled greater versatility in interfacing with a wide range of devices and sensors.</li>
-			<li>Focused on creating a compact and efficient solution to extend the capabilities of the Odroid-C2 platform for various applications.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed an extension board for the Odroid-C2, expanding its interfaces to include DAC, ADC, and RS232 for enhanced functionality.</li>
+				<li>Enabled greater versatility in interfacing with a wide range of devices and sensors.</li>
+				<li>Focused on creating a compact and efficient solution to extend the capabilities of the Odroid-C2 platform for various applications.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="anti-theft-movement-sensor-2016" class="projTitle">Anti-theft Movement Sensor (2016)</h3>
-		<ul class="projDesc">
-			<li>Designed an anti-theft movement sensor integrating an MCU, accelerometer, and NO/NC contacts to detect suspicious movement and potential theft.</li>
-			<li>Developed the system to monitor device orientation, analyze behavior patterns, and trigger an alarm if theft is suspected.</li>
-			<li>Focused on creating a reliable, responsive solution for security applications, ensuring quick detection and response to unauthorized movement.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed an anti-theft movement sensor integrating an MCU, accelerometer, and NO/NC contacts to detect suspicious movement and potential theft.</li>
+				<li>Developed the system to monitor device orientation, analyze behavior patterns, and trigger an alarm if theft is suspected.</li>
+				<li>Focused on creating a reliable, responsive solution for security applications, ensuring quick detection and response to unauthorized movement.</li>
+			</ul>
+			<model-viewer
+				alt="ATMS"
+				src="../model/ATMS.glb"
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="controller-system-for-weighing-2015" class="projTitle">Controller system for weighing (2015)</h3>
-		<ul class="projDesc">
-			<li>Designed a controller for a weighing machine, ensuring accurate weight measurements and seamless integration with the system.</li>
-			<li>Focused on developing a reliable and efficient solution for precise weight control in industrial and commercial applications.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a controller for a weighing machine, ensuring accurate weight measurements and seamless integration with the system.</li>
+				<li>Focused on developing a reliable and efficient solution for precise weight control in industrial and commercial applications.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="single-phase-energy-meter-2015" class="projTitle">Single Phase Energy Meter (2015)</h3>
-		<ul class="projDesc">
-			<li>Designed a single-phase energy meter utilizing ASIC technology for accurate energy measurement.</li>
-			<li>Integrated RS485 and SDI-12 communication interfaces for seamless data transfer to a host device.</li>
-			<li>Enabled monitoring and logging of energy consumption data for improved tracking and analysis.</li>
-			<li>Focused on creating a reliable and efficient solution for energy measurement in residential and industrial applications.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a single-phase energy meter utilizing ASIC technology for accurate energy measurement.</li>
+				<li>Integrated RS485 and SDI-12 communication interfaces for seamless data transfer to a host device.</li>
+				<li>Enabled monitoring and logging of energy consumption data for improved tracking and analysis.</li>
+				<li>Focused on creating a reliable and efficient solution for energy measurement in residential and industrial applications.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="relay-and-triac-controller-2015" class="projTitle">Relay and Triac Controller (2015)</h3>
-		<ul class="projDesc">
-			<li>Designed a device that accepts commands from Data Terminal Equipment (DTE) to control relays and triacs for efficient power management.</li>
-			<li>Integrated an RS485 interface for reliable communication between the controller and external devices.</li>
-			<li>Focused on providing a flexible and robust solution for controlling high-voltage loads in industrial and automation systems.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a device that accepts commands from Data Terminal Equipment (DTE) to control relays and triacs for efficient power management.</li>
+				<li>Integrated an RS485 interface for reliable communication between the controller and external devices.</li>
+				<li>Focused on providing a flexible and robust solution for controlling high-voltage loads in industrial and automation systems.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="power-supply-for-audio-amplifier-2015" class="projTitle">Power Supply for Audio Amplifier (2015)</h3>
-		<ul class="projDesc">
-			<li>Designed an SMPS-based power supply for an audio amplifier, delivering up to 580 watts of power for high-performance audio systems.</li>
-			<li>Focused on achieving high efficiency and stable voltage regulation to support the amplifier’s power demands without distortion.</li>
-			<li>Ensured reliable performance in demanding audio environments, optimizing power delivery and minimizing noise.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed an SMPS-based power supply for an audio amplifier, delivering up to 580 watts of power for high-performance audio systems.</li>
+				<li>Focused on achieving high efficiency and stable voltage regulation to support the amplifier’s power demands without distortion.</li>
+				<li>Ensured reliable performance in demanding audio environments, optimizing power delivery and minimizing noise.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="power-supply-for-tele-terminal-2015" class="projTitle">Power Supply for Tele-Terminal (2015)</h3>
-		<ul class="projDesc">
-			<li>Designed a power supply capable of supporting a 60-watt monitor, 30-watt router, and 20-watt embedded device within a tele-terminal setup.</li>
-			<li>Ensured efficient power distribution to multiple devices, meeting their specific power requirements while maintaining stability and reliability.</li>
-			<li>Focused on providing a compact and reliable solution for powering telecommunication and embedded systems.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a power supply capable of supporting a 60-watt monitor, 30-watt router, and 20-watt embedded device within a tele-terminal setup.</li>
+				<li>Ensured efficient power distribution to multiple devices, meeting their specific power requirements while maintaining stability and reliability.</li>
+				<li>Focused on providing a compact and reliable solution for powering telecommunication and embedded systems.</li>
+			</ul>
+			<model-viewer
+				alt="PSUTT"
+				src="../model/Power Supply for Tele-Terminal.glb"
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="multipurpose-ethernet-board-2015" class="projTitle">Multipurpose Ethernet Board (2015)</h3>
-		<ul class="projDesc">
-			<li>Designed a general-purpose embedded device featuring a built-in audio codec with preamp, Ethernet, I2S, RS485, SDI-12, Triac-controlled output, RS232, and GPIOs for versatile integration.</li>
-			<li>Enabled seamless connectivity and control for a wide range of applications, including audio processing, data communication, and device management.</li>
-			<li>Focused on delivering a flexible, scalable solution for diverse embedded system needs, ensuring efficient performance across different interfaces.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a general-purpose embedded device featuring a built-in audio codec with preamp, Ethernet, I2S, RS485, SDI-12, Triac-controlled output, RS232, and GPIOs for versatile integration.</li>
+				<li>Enabled seamless connectivity and control for a wide range of applications, including audio processing, data communication, and device management.</li>
+				<li>Focused on delivering a flexible, scalable solution for diverse embedded system needs, ensuring efficient performance across different interfaces.</li>
+			</ul>
+			<model-viewer
+				alt="MEB"
+				src="../model/Multipurpose Ethernet Board.glb"
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="lora-wireless-remote-terminal-unit-2015" class="projTitle">LoRa Wireless Remote Terminal Unit (2015)</h3>
-		<ul class="projDesc">
-			<li>Designed and developed a power-efficient embedded device for communication between devices using LoRaWAN/LoRa technology.</li>
-			<li>Focused on achieving low power consumption and long-range communication for remote and IoT applications.</li>
-			<li>Integrated firmware programming for reliable data transmission, ensuring robust performance in challenging environments.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed and developed a power-efficient embedded device for communication between devices using LoRaWAN/LoRa technology.</li>
+				<li>Focused on achieving low power consumption and long-range communication for remote and IoT applications.</li>
+				<li>Integrated firmware programming for reliable data transmission, ensuring robust performance in challenging environments.</li>
+			</ul>
+			<model-viewer
+				alt="LWRTU"
+				src="../model/LWRTU.glb"
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="vehicle-guard-and-fleet-management-2015" class="projTitle">Vehicle Guard and Fleet Management (2015)</h3>
-		<ul class="projDesc">
-			<li>Designed a vehicle guard and fleet management system integrating an MCU, cellular modem, accelerometer, and CAN-Bus for real-time monitoring.</li>
-			<li>Utilized OBD2 protocol to communicate with vehicles, enabling remote diagnostics and fleet tracking.</li>
-			<li>Focused on creating a robust and scalable solution for enhancing fleet management, monitoring vehicle health, and improving operational efficiency.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a vehicle guard and fleet management system integrating an MCU, cellular modem, accelerometer, and CAN-Bus for real-time monitoring.</li>
+				<li>Utilized OBD2 protocol to communicate with vehicles, enabling remote diagnostics and fleet tracking.</li>
+				<li>Focused on creating a robust and scalable solution for enhancing fleet management, monitoring vehicle health, and improving operational efficiency.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="lightning-and-surge-arrester-module-2015" class="projTitle">Lightning and Surge Arrester Module (2015)</h3>
-		<ul class="projDesc">
-			<li>Designed a three-stage protection system to safeguard RS485 and SDI-12 signal and power lines from lightning and surge.</li>
-			<li>Provided protection for both differential and balanced digital/analog lines, preventing damage from transients and surges.</li>
-			<li>Focused on enhancing the reliability and durability of control and communication systems in harsh environments.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a three-stage protection system to safeguard RS485 and SDI-12 signal and power lines from lightning and surge.</li>
+				<li>Provided protection for both differential and balanced digital/analog lines, preventing damage from transients and surges.</li>
+				<li>Focused on enhancing the reliability and durability of control and communication systems in harsh environments.</li>
+			</ul>
+			<model-viewer
+				alt="LSP"
+				src="../model/SurgeProtector.glb"
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="reflow-oven-controller-board-2015" class="projTitle">Reflow Oven Controller Board (2015)</h3>
-		<ul class="projDesc">
-			<li>Designed a controller board to track and maintain the reflow curve in reflow ovens for precise soldering temperature control.</li>
-			<li>Focused on ensuring accurate and consistent temperature profiles to optimize soldering quality and efficiency in PCB assembly.</li>
-			<li>Developed a reliable solution to improve the performance and precision of reflow soldering processes.</li>
-		</ul>
+		<div class="projDescContainer">
+			<ul class="projDesc">
+				<li>Designed a controller board to track and maintain the reflow curve in reflow ovens for precise soldering temperature control.</li>
+				<li>Focused on ensuring accurate and consistent temperature profiles to optimize soldering quality and efficiency in PCB assembly.</li>
+				<li>Developed a reliable solution to improve the performance and precision of reflow soldering processes.</li>
+			</ul>
+			<model-viewer
+				alt=""
+				src=""
+				ar
+				camera-controls
+				touch-action="pan-y"
+			/>
+		</div>
 
 		<h3 id="university-major-project-brain-control-system-2014" class="projTitle">University Major Project (Brain Control System, 2014)</h3>
 		<ul class="projDesc">
@@ -458,8 +828,10 @@ export const ProjectList = _ =>
 			<li>A wheelchair that can be controlled by joystick, voice, head gesture. It uses gyroscope for path correction, accelerometer for head gesture, ultrasonic sensor for collision detection.</li>
 		</ul>
 
-		<h2 id="firmware" class="deptTitle">Firmware</h2>
-		<hr />
+		<div class="deptTitle">
+			<h2 id="firmware" class="deptTitle">Firmware</h2>
+			<hr />
+		</div>
 
 		<h3 id="test-firmware-for-low-power-sensor-nodes-2025" class="projTitle">Test Firmware for Low power Sensor nodes (2025)</h3>
 		<ul class="projDesc">
@@ -565,8 +937,10 @@ export const ProjectList = _ =>
 			<li>Enhanced user experience by providing real-time feedback via wireless connections.</li>
 		</ul>
 
-		<h2 id="software" class="deptTitle">Software</h2>
-		<hr />
+		<div class="deptTitle">
+			<h2 id="software" class="deptTitle">Software</h2>
+			<hr />
+		</div>
 
 		<h3 id="unixevents-for-python-2025-open-source" class="projTitle"><a href="https://github.com/rohsins/unixevents_py">Unixevents for python</a> [2025 | Open source]</h3>
 		<ul class="projDesc">
@@ -739,8 +1113,10 @@ export const ProjectList = _ =>
 			<li>Implemented real-time data fetching from remote devices, enabling users to instantly view LCR measurements.</li>
 		</ul>
 
-		<h2 id="computer-aided-design-cad" class="deptTitle">Computer Aided Design (CAD)</h2>
-		<hr />
+		<div class="deptTitle">
+			<h2 id="computer-aided-design-cad" class="deptTitle">Computer Aided Design (CAD)</h2>
+			<hr />
+		</div>
 
 		<h3 id="enclosure-design-for-infrastructure-monitoring-system" class="projTitle">Enclosure Design for Infrastructure Monitoring System</h3>
 		<ul class="projDesc">
@@ -764,4 +1140,10 @@ export const ProjectList = _ =>
 		</ul>
 
 		<h3 id="enclosure-design-for-lora-remote-terminal-unit" class="projTitle">Enclosure Design for LoRa Remote Terminal Unit</h3>
+		<ul class="projDesc">
+			<li>Designed enclosures for LoRa Remote Terminal Unit for with and without batteries.</li>
+			<li></li>
+			<li></li>
+		</ul>
+
 	</div>
