@@ -92,6 +92,13 @@ export const ProjectList = _ =>
 				<li><a href="#flood-alert-service-2016">Flood Alert Service (2016)</a></li>
 				<li><a href="#lcr-telemetry-2015">LCR Telemetry (2015)</a></li>
 			</ul>
+
+			<li class="deptTitle"><a href="#computer-aided-design-cad">Computer Aided Design (CAD)</a></li>
+			<ul class="deptTitleLink">
+				<li><a href="#enclosure-design-for-infrastructure-monitoring-system">Enclosure Design for Infrastructure Monitoring System</a></li>
+				<li><a href="#enclosure-design-for-temperature-controlled-ventilation">Enclosure Design for Temperature Controlled Ventilation</a></li>
+				<li><a href="#enclosure-design-for-lora-remote-terminal-unit">Enclosure Design for LoRa Remote Terminal Unit</a></li>
+			</ul>
 			<br />
 		</ul>
 
@@ -1142,7 +1149,13 @@ export const ProjectList = _ =>
 		<h3 id="enclosure-design-for-lora-remote-terminal-unit" class="projTitle">Enclosure Design for LoRa Remote Terminal Unit</h3>
 		<ul class="projDesc">
 			<li>Designed enclosures for LoRa Remote Terminal Unit for with and without batteries.</li>
+			<li>Designed enclosure the encompases the board, battery in it</li>
 			<li></li>
+		</ul>
+
+
+		<h3 id="" class="projTitle"></h3>
+		<ul class="projDesc">
 			<li></li>
 		</ul>
 
