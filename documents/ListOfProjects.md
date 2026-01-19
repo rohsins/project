@@ -540,6 +540,21 @@
 * Implemented real-time data fetching from remote devices, enabling users to instantly view LCR measurements. 
  
 ## Computer Aided Design (CAD)
+* Designed multiple mechanical enclosures in Siemens NX CAD specifically optimized for 3D printing, using standardized design workflow across projects.
+* Designed and delivered FDM 3D-printed enclosures in Siemens NX CAD to support electronic system development,
+    applying a repeatable enclosure design workflow from concept to functional prototypes.
+* Design a compact enclosure to house a PCB and connectors while minimizing print time and material usage.
+
+* Designed multiple functional enclosures for 3D printing using Siemens NX, following a consistent design-to-manufacture workflow
+* Developed parametric CAD models incorporating snap-fits, screw bosses, ventilation, and PCB mounts
+* Optimized designs for FDM constraints including wall thickness, tolerances, overhangs, and print orientation
+* Iterated designs based on test prints, fit checks, and functional feedback
+* Prepared models for production-ready printing, reducing post-processing and print failures
+* Collaborated with electrical/mechanical requirements to ensure component clearance and assembly accuracy
+
+### Programming dock design for Digital temperature sensor pcb
+* A single part 3D printable design.
+
 ### Enclosure Design for Infrastructure Monitoring System
 * Designed 3D-printable enclosures for an infrastructure monitoring system, optimized for rapid prototyping and validation.
 * Created detailed 3D CAD models and engineering drawings, ensuring accurate fit with PCBs, sensors, and connectors.
@@ -558,14 +573,37 @@
 * It has a flange to mount it on a wall.
 
 ### Enclosure Design for LoRa Remote Terminal Unit
+* It includes a battery holder at the bottom to hold the battery in place and a cutout in the battery cover to guide the battery cable to the circuit board.
+* It has a cutout for an LoRa 868 Mhz antenna to allow SMA Female receptable connector.
+* It has a cutout for interfaces like RS485, SDI-12, EVENT, Power, RS232, OpenDrains.
+* It is made up of three parts, one is base where the battery rests, battery cover to hold a battery, and the top cover to enclose the whole thing.
+    The PCB rests on the tight fitting groove.
+    There are stand off with thread in it, to fasten the PCB with screws.
 
 ### Design for Antenna Adaptor
 * Designed an adaptor to mount antenna on a pole
+* The outer diameter of the holder is designed to fitted tight with the internal diameter of a pole that holds really tightly.
+    A ring of diameter greater than the pole's outer diameter is situated on 3/4th from the bottom to prevent the adapter to go through the pipe completely, and hold at place.
 
 ### Design a programming dock for CDCP
+* Designed an enclosure for CDCP.
+* The design contains a placeholder for 8pin pogo pin where it comes in contact with the PCB for JTAG.
+* The PCB rests on the 3d printed stub.
+* The PCB outer edge is precision fitted to the enclosure where it rests.
 
 ### Design a programming dock for L25-PU logic board
+* It is a single part design where there is a cutout on a side located at a lower region for a SWD cables to run through.
+* There is a 6 length pogo pin holder where you push the 6-pin pogo pins that is designed to hold with precision fit without any other holders.
+* There is a groove that matches really well with the PCB's outer edge, where the PCB is holded and restricts the horizontal movement.
 
 ### Design an enclosure for LoRaWAN Gateway
+* A simple enclosure made up of two parts a base and a top cover.
+* The system is placed on a bottom part where the system PCBs are held into place by the screws at the bottom.
+* There a two antennas on the cover, one for GSM and one for LoRa. Both are SMA Female receptables.
+* There is a cutout on the front side for the power connector.
 
 ### Design an enclosure for IMS-MODEM
+* Enclosure for a portable GSM-Modem, with USB, and two sim cards options.
+* There is a cutout at the back side for USB inferface. The cutout is in a shape of USB Type-C connector.
+* There are two cutout at the side for two sim cards.
+* The top cover encloses the enclosure.
