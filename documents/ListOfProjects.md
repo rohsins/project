@@ -84,6 +84,10 @@
 
 
 ## Hardware
+### TS-PT100: High-Precision Temperature Sensor (2026)
+* Designed a high-precision, ultra low power temperature sensor.
+
+
 ### Datalogger-XXI: High-Performance Data Logging System (2025)
 * Designed a high-performance datalogger featuring a dual-core microcontroller (M7 and M4) for efficient parallel processing. 
 * Integrated RAM and Flash memory for reliable local data storage. 
@@ -552,15 +556,19 @@
 * Prepared models for production-ready printing, reducing post-processing and print failures
 * Collaborated with electrical/mechanical requirements to ensure component clearance and assembly accuracy
 
+### Heatsink design for L25-PU
+
+### Enclosure Design for LoRaWAN GNSS
+
+### Enclosure Design for TCM (Communication Module)
+
 ### Programming dock design for Digital temperature sensor pcb
 * A single part 3D printable design.
+* The design contains a placeholder for 8pin pogo pin where it comes in contact with the PCB for JTAG.
+* The PCB rests on the 3d printed stub.
+* The PCB outer edge is precision fitted to the enclosure where it rests.
 
 ### Enclosure Design for Infrastructure Monitoring System
-* Designed 3D-printable enclosures for an infrastructure monitoring system, optimized for rapid prototyping and validation.
-* Created detailed 3D CAD models and engineering drawings, ensuring accurate fit with PCBs, sensors, and connectors.
-* Iterated enclosure prototypes using FDM 3D printing, validating tolerances, assembly, and ergonomics before production tooling.
-* Considered thermal performance, mechanical strength, and IP-rated sealing features in the design.
-* Collaborated with hardware, firmware, and QA teams to align enclosure design with system requirements and manufacturability.
 * Designed 3D-printable enclosures for an infrastructure monitoring system, optimized for rapid prototyping and validation.
 * Created detailed 3D CAD models and engineering drawings, ensuring accurate fit with PCBs, sensors, and connectors.
 * Iterated enclosure prototypes using FDM 3D printing, validating tolerances, assembly, and ergonomics before production tooling.
