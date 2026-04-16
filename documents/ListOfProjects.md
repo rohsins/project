@@ -85,7 +85,8 @@
 
 ## Hardware
 ### TS-PT100: High-Precision Temperature Sensor (2026)
-* Designed a high-precision, ultra low power temperature sensor.
+* Designed a high-precision, ultra low power, compact temperature sensor.
+* It has a powerful STM32U385 MCU. An SDI-12 interface is available for communication.
 
 
 ### Datalogger-XXI: High-Performance Data Logging System (2025)
@@ -556,11 +557,21 @@
 * Prepared models for production-ready printing, reducing post-processing and print failures
 * Collaborated with electrical/mechanical requirements to ensure component clearance and assembly accuracy
 
-### Heatsink design for L25-PU
+### Heatsink design for L25-PU (2026)
+* Designed a heatsink for L25-PU with Siemens NX.
+* Designed a custom aluminium heatsink in Siemens NX for the L25-PU system, considering thermal load, airflow, and enclosure constraints.
+* Validated design through analytical thermal calculations and iterative CAD refinement.
+* Ensured manufacturability and mechanical compatibility with system hardware.
+* Balanced thermal performance, size constraints, and manufacturability through iterative CAD modeling and validation.
+* Ensured operation within specified temperature range.
 
-### Enclosure Design for LoRaWAN GNSS
+### Enclosure Design for LoRaWAN GNSS (2026)
+* Designed a compact enclosure for GNSS transceiver with LoRaWAN.
+* It consists of one antenna for LoRa.
+* It is a three part design, bottom section for holding battery, middle section where the PCBA rests, and the top is for the cover.
 
 ### Enclosure Design for TCM (Communication Module)
+* Designed an enclosure for the Communication Module. It has 3 antennae - Main, Diversity, and GNSS.
 
 ### Programming dock design for Digital temperature sensor pcb
 * A single part 3D printable design.
