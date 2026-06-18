@@ -84,6 +84,10 @@
 
 
 ## Hardware
+
+### Smoke Sensor: Smoke sensor with LoRa (LoRaWAN) (2026)
+* Desined a LoRa based, low power smoke sensor
+
 ### TS-PT100: High-Precision Temperature Sensor (2026)
 * Designed a high-precision, ultra low power, compact temperature sensor.
 * It has a powerful STM32U385 MCU. An SDI-12 interface is available for communication.
@@ -556,6 +560,10 @@
 * Iterated designs based on test prints, fit checks, and functional feedback
 * Prepared models for production-ready printing, reducing post-processing and print failures
 * Collaborated with electrical/mechanical requirements to ensure component clearance and assembly accuracy
+
+### Enclosure for TS-PT100 (2026)
+* Designed an enclosure for TS-PT100.
+* Designed to fill epoxy for weather proofing.
 
 ### Heatsink design for L25-PU (2026)
 * Designed a heatsink for L25-PU with Siemens NX.
