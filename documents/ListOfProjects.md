@@ -92,6 +92,9 @@
 * Designed a high-precision, ultra low power, compact temperature sensor.
 * It has a powerful STM32U385 MCU. An SDI-12 interface is available for communication.
 
+### L25-PU: Logger-25 Power Unit
+* Designed a low power device that has a charging and discharging capabilities, with USB PD functionality.
+* It has a BLE5.4 built in for remotely adjusting the auxiliary output power.
 
 ### Datalogger-XXI: High-Performance Data Logging System (2025)
 * Designed a high-performance datalogger featuring a dual-core microcontroller (M7 and M4) for efficient parallel processing. 
